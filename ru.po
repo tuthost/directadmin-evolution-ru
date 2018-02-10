@@ -4868,7 +4868,7 @@ msgstr "Тарифы пользователей"
 
 #: ./src/js/components/local/auth-dialog.vue:12
 msgid "Manage your domains, databases & other server info."
-msgstr "Управляйте своими доменами, базами данных и информацией о других серверах."
+msgstr "Управляйте доменами, базами данных и другими настройками сервера."
 
 #: ./src/js/pages/admin/settings.vue:278
 msgid "Manual"
