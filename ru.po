@@ -21,7 +21,7 @@ msgstr " Выберите IP-адрес, используемый для вос
 #: src/js/pages/user/email/vacations/create.vue:24
 #: src/js/pages/user/email/vacations/modify.vue:20
 msgid ": original subject"
-msgstr ": original subject"
+msgstr ""
 
 #: src/js/components/global/ui/ui-pagination.vue:6
 msgid "..."
@@ -158,14 +158,14 @@ msgstr "# Реселлеров"
 
 #: src/js/pages/user/stats/index.vue:46 src/js/pages/user/stats/index.vue:71
 msgid "# of Subdomains"
-msgstr "# Поддоменов"
+msgstr "# поддоменов"
 
 #: src/js/pages/admin/stats.vue:109
 #: src/js/pages/admin/users/resellers/_components/usage-table.vue:65
 #: src/js/pages/reseller/stats.vue:211
 #: src/js/pages/reseller/users/_components/usage-table.vue:117
 msgid "# of SubDomains"
-msgstr "# Поддоменов"
+msgstr "# поддоменов"
 
 #: src/js/pages/admin/stats.vue:85 src/js/pages/admin/users/admins.vue:17
 #: src/js/pages/admin/users/resellers/index.vue:19
@@ -174,19 +174,19 @@ msgstr "# Поддоменов"
 #: src/js/pages/admin/users/resellers/index.vue:27
 #: src/js/pages/user/dashboard/_components/widgets/db.vue:20
 msgid "# of Users"
-msgstr "# Пользователей"
+msgstr "# пользователей"
 
 #: src/js/pages/admin/settings.vue:102
 msgid "% Disk Usage to create Backups."
-msgstr "% Использование диска создавать бекапы."
+msgstr "% Использование диска для создания резервных копий."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:15
 msgid "%{ filename } customization for %{ domain }"
-msgstr "% { filename } настройка для % { domain }"
+msgstr "%{ filename } настройка для %{ domain }"
 
 #: src/js/pages/reseller/users/view.vue:84
 msgid "%{ limit } / Day"
-msgstr "%{ limit } / День"
+msgstr "%{ limit } / Day"
 
 #: src/js/pages/admin/brute-force-monitor/index.vue:22
 msgid "%{ log } is %{ size }"
@@ -207,9 +207,9 @@ msgstr "%{dirs} Папки /%{files} Файлы"
 #: src/js/pages/admin/users/resellers/create.vue:57
 msgid "%{freeIPs} Free IP"
 msgid_plural "%{freeIPs} Free IPs."
-msgstr[0] "% {freeIPs} Свободный IP-адрес"
-msgstr[1] "% {freeIPs} Свободные IP-адреса"
-msgstr[2] "% {freeIPs} Свободных IP-адресов"
+msgstr[0] "%{freeIPs} Свободный IP-адрес"
+msgstr[1] "%{freeIPs} Свободные IP-адреса"
+msgstr[2] "%{freeIPs} Свободных IP-адресов"
 
 #: src/js/pages/user/email/lists/view.vue:83
 msgid "%{name}-digest"
@@ -342,8 +342,8 @@ msgstr ""
 msgid "Accepted type:"
 msgid_plural "Accepted types"
 msgstr[0] "Принимаемый тип:"
-msgstr[1] "Принимаемые типы:"
-msgstr[2] "Принимаемые типы:"
+msgstr[1] "Принимаемые тип:"
+msgstr[2] "Принимаемые тип:"
 
 #: src/js/pages/user/database/view.vue:83
 msgid "access host"
@@ -402,7 +402,7 @@ msgstr "Аккаунт"
 
 #: src/js/pages/user/ftp-accounts/edit.vue:150
 msgid "Account modified"
-msgstr "Учетная запись изменена"
+msgstr "Изменения учетной записи"
 
 #: src/js/pages/user/ftp-accounts/index.vue:173
 msgid "Account was successfully deleted"
@@ -426,7 +426,6 @@ msgstr[1] "Аккаунты успешно разблокированы"
 msgstr[2] "Аккаунты успешно разблокированы"
 
 #: src/js/modules/widgets.js:30
-#, fuzzy
 msgid "Accounts and usage information"
 msgstr "Учетные записи и информация об использовании"
 
@@ -492,7 +491,6 @@ msgid "Add"
 msgstr "Добавить"
 
 #: src/js/pages/admin/brute-force-monitor/_components/skip-dialog.vue:3
-#, fuzzy
 msgid "Add {{ subject }} to Skip List"
 msgstr "Добавить {{subject}} в список пропусков"
 
@@ -516,7 +514,6 @@ msgstr "Добавить коды"
 
 #: src/js/pages/user/email/_components/create-forwarder-dialog.vue:78
 #: src/js/pages/user/email/_components/modify-forwarder-dialog.vue:40
-#, fuzzy
 msgid "Add Destination E-mail"
 msgstr "Добавить адрес электронной почты"
 
@@ -572,8 +569,10 @@ msgid "Add New Apache Handler"
 msgstr "Добавить новый обработчик Apache"
 
 #: src/js/pages/reseller/customize-skin/_components/menu-editor.vue:21
+#, fuzzy
+#| msgid "Add New User"
 msgid "Add New Category"
-msgstr "Добавить новую категорию"
+msgstr "Добавить пользователя"
 
 #: src/js/pages/user/_components/create-domain-pointer-dialog.vue:3
 msgid "Add New Domain Pointer"
@@ -636,7 +635,7 @@ msgstr "Добавить Плагин"
 
 #: src/js/pages/user/two-step-auth.vue:165
 msgid "Add Scratch Codes"
-msgstr "Добавить Scratch коды"
+msgstr "Добавление кодов Scratch"
 
 #: src/js/pages/user/_components/add-security-question-dialog.vue:3
 msgid "Add Security Question"
@@ -655,7 +654,6 @@ msgid "Add Subscriber"
 msgstr "Добавить подписчика"
 
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:20
-#, fuzzy
 msgid "Add the code to be inserted into the CUSTOM tokens."
 msgstr "Добавьте код для вставки в токены CUSTOM."
 
@@ -672,12 +670,14 @@ msgid "Add To Clipboard"
 msgstr "Добавить в буфер обмена"
 
 #: src/js/pages/admin/ip-manager/_dialogs/add-ip-dialog.vue:46
+#, fuzzy
+#| msgid "Add to Apache"
 msgid "Add to device"
-msgstr "Добавить к устройству"
+msgstr "Добавить к Apache"
 
 #: src/js/pages/admin/ip-manager/details.vue:129
 msgid "Add to NS"
-msgstr "Добавить к NS"
+msgstr "Добавить в NS"
 
 #: src/js/pages/user/email/lists/view.vue:75
 msgid "Add to:"
@@ -755,7 +755,7 @@ msgstr "Настройки Админа"
 
 #: src/js/modules/widgets.js:54
 msgid "Admin Stats"
-msgstr "Статистика Админа"
+msgstr "Профиль пользователя Admin"
 
 #: src/js/modules/navigation/admin.js:93
 msgid "Admin Tools"
@@ -830,6 +830,7 @@ msgid "All of Your Users"
 msgstr "Все ваши пользователи"
 
 #: src/js/pages/admin/cron-jobs.vue:1 src/js/modules/navigation/admin.js:138
+#, fuzzy
 msgid "All User Cron Jobs"
 msgstr "Cron задачи пользователей"
 
@@ -862,8 +863,9 @@ msgstr "Все пользователи, кроме:"
 #: src/js/pages/reseller/stats.vue:17
 #: src/js/pages/admin/users/resellers/_components/usage-table.vue:6
 #: src/js/pages/reseller/stats.vue:24
+#, fuzzy
 msgid "Allocated"
-msgstr "Выделено"
+msgstr "Выделенные"
 
 #: src/js/pages/user/login-keys/create.vue:112
 #: src/js/pages/user/login-keys/index.vue:21
@@ -887,8 +889,8 @@ msgid ""
 "Allow API logins with the current User/password. Login Keys and Session Keys "
 "are always allowed."
 msgstr ""
-"Разрешить логины по API с текущим пользователем / паролем. Ключи входа и "
-"ключи сеансов всегда разрешены."
+"Разрешить логины API с текущим пользователем / паролем. Ключи входа и "
+"сеансовые ключи всегда разрешены."
 
 #: src/js/pages/user/login-keys/create.vue:91
 #: src/js/pages/user/login-keys/modify.vue:77
@@ -906,8 +908,9 @@ msgid "Allow Reseller to create sites with server IP"
 msgstr "Разрешить Реселлеру создавать аккаунты на общем IP сервера"
 
 #: src/js/pages/admin/settings.vue:98
+#, fuzzy
 msgid "Allow Users with less than"
-msgstr "Разрешить пользователям с менее чем"
+msgstr "Разрешить Пользователей меньше чем"
 
 #: src/js/pages/user/ftp-settings.vue:28
 msgid "Allow:"
@@ -979,7 +982,6 @@ msgstr "Обработчики Apache"
 
 #: src/js/pages/user/dashboard/_components/widgets/email-pop.vue:42
 #: src/js/pages/user/email/accounts/index.vue:95
-#, fuzzy
 msgid "Apparent Usage:"
 msgstr "Явное использование:"
 
@@ -1050,14 +1052,12 @@ msgid "Are you sure you want to delete selected files?"
 msgstr "Вы действительно хотите удалить выбранные файлы?"
 
 #: src/js/pages/reseller/users/_components/delete-user-dialog.vue:6
-#, fuzzy
 msgid "Are you sure you want to delete user %{user}?"
-msgstr "Вы действительно хотите удалить пользователя% {user}?"
+msgstr "Вы действительно хотите удалить пользователя %{user}?"
 
 #: src/js/pages/user/protected-directories/view.vue:84
-#, fuzzy
 msgid "Are you sure you want to disable protection for %{path}?"
-msgstr "Вы действительно хотите отключить защиту для% {path}?"
+msgstr "Вы действительно хотите отключить защиту для %{path}?"
 
 #: src/js/pages/admin/multi-server.vue:125
 msgid "Are you sure you want to disable this feature?"
@@ -1068,12 +1068,10 @@ msgid "Are you sure you want to install “%{ name }” plugin?"
 msgstr "Вы действительно хотите установить плагин \"%{name}\"?"
 
 #: src/js/pages/admin/services.vue:73
-#, fuzzy
 msgid "Are you sure you want to reboot server?"
 msgstr "Вы действительно хотите перезагрузить сервер?"
 
 #: src/js/pages/admin/brute-force-monitor/skip_list.vue:31
-#, fuzzy
 msgid "Are you sure you want to remove selected elements from skip list?"
 msgstr ""
 "Вы действительно хотите удалить выбранные элементы из списка пропусков?"
@@ -1086,9 +1084,8 @@ msgstr[1] "Вы действительно хотите разблокирова
 msgstr[2] "Вы действительно хотите разблокировать выбранные IP-адреса?"
 
 #: src/js/pages/admin/plugin-manager.vue:132
-#, fuzzy
 msgid "Are you sure you want to uninstall “%{ name }” plugin?"
-msgstr "Вы действительно хотите удалить плагин «% {name}»?"
+msgstr "Вы действительно хотите удалить плагин \"%{name}\"?"
 
 #: src/js/pages/admin/ip-manager/details.vue:179
 msgid "Are you sure you want to unlink selected IP?"
@@ -1109,9 +1106,8 @@ msgid "Assign"
 msgstr "Присвоить"
 
 #: src/js/pages/user/database/_dialogs/existing-db-user-dialog.vue:3
-#, fuzzy
 msgid "Assign Existing User to %{database}"
-msgstr "Назначить существующего пользователя в% {database}"
+msgstr "Присвоить существующего пользователя к %{database}"
 
 #: src/js/pages/admin/ip-manager/_dialogs/assign-ip-dialog.vue:3
 msgid "Assign IP"
@@ -1145,7 +1141,6 @@ msgid "Assigned IPs"
 msgstr "Назначенные IP-адреса"
 
 #: src/js/pages/user/email/spamassassin.vue:110
-#, fuzzy
 msgid ""
 "Attachments will seperate the spam into its own message, preventing scripts "
 "from being run."
@@ -1281,6 +1276,15 @@ msgid "Available Version"
 msgstr "Доступная версия"
 
 #: src/js/pages/user/email/catch-all.vue:45
+#, fuzzy
+#| msgid ""
+#| "Avoid using the Ignore option unless you know what you are doing.\n"
+#| "Spammers will be sending you e-mails to random addresses,\n"
+#| "and this option will accept those e-mails.\n"
+#| "You will not know it because the accepted e-mails would be discarded.\n"
+#| "This greatly increases the server load unnecessarily.\n"
+#| "If you do not want the catch-all to be on, then use the Fail option "
+#| "instead."
 msgid ""
 "Avoid using the Ignore option unless you know what you are doing. Spammers "
 "will be sending you e-mails to random addresses, and this option will accept "
@@ -1288,12 +1292,15 @@ msgid ""
 "discarded. This greatly increases the server load unnecessarily. If you do "
 "not want the catch-all to be on, then use the Fail option instead."
 msgstr ""
-"Избегайте использования опции игноировать, кроме случаев, когда вы точно "
-"знаете что делаете. Спамеры будут отправлять вам письма на случайные адреса "
-"и эта опция позволит получать эти письма. Вы не узнаете об этом потому что "
-"такие письма будут отклоняться. Это сильно увеличивает нагрузку на сервер.  "
-"Если вы не хотите, чтобы сборщик почты был включен, тогда используйте вместо "
-"этого опцию Ошибка."
+"Избегайте использования параметра Игнорировать, если вы не знаете, что "
+"делаете.\n"
+"Спамеры будут отправлять вам электронные письма на случайные адреса,\n"
+"и этот вариант будет принимать эти электронные письма.\n"
+"Вы этого не узнаете, потому что принятые электронные письма будут "
+"отброшены.\n"
+"Это значительно увеличивает нагрузку на сервер.\n"
+"Если вы не хотите, чтобы ловушка была включена, используйте вместо этого "
+"параметр «Сбой»."
 
 #: src/js/pages/user/subdomains/stats.vue:11
 #: src/js/pages/user/subdomains/stats.vue:14
@@ -1312,7 +1319,7 @@ msgstr "Назад"
 
 #: src/js/pages/user/stats/index.vue:197
 msgid "Backed up Web Logs"
-msgstr "Сохраненные веб логи"
+msgstr "Backed up Web Logs"
 
 #: src/js/pages/admin/system-backup.vue:60
 #: src/js/pages/user/backup/restore.vue:12
@@ -1336,7 +1343,7 @@ msgstr "Путь к резервным копиям"
 #: src/js/pages/reseller/backups/_components/settings-dialog.vue:3
 #: src/js/pages/reseller/backups/index.vue:76
 msgid "Backup/Restore Settings"
-msgstr "Настройки резервного копирования"
+msgstr "Настройки резервного копирования / восстановления"
 
 #: src/js/components/local/history/table.vue:3
 #: src/js/components/local/stats/webalizer-table.vue:4
@@ -1391,7 +1398,7 @@ msgstr "Трафик (МБ)"
 #: src/js/pages/admin/history.vue:40 src/js/pages/reseller/history.vue:42
 #: src/js/pages/reseller/users/history.vue:39 src/js/pages/user/history.vue:42
 msgid "Bandwidth & Disk Usage"
-msgstr "Трафик и использование диска"
+msgstr "Использование полосы пропускания и диска"
 
 #: src/js/pages/user/bandwidth.vue:1
 #, fuzzy
@@ -1400,6 +1407,7 @@ msgstr "Превышения трафика"
 
 #: src/js/pages/user/bandwidth.vue:12
 #, fuzzy
+#| msgid "Bandwidth Breakdown for {{ getMonthName(month) }} {{ year }}"
 msgid "Bandwidth Breakdown for %{month} %{year}"
 msgstr "Пропуск полосы пропускания для {{getMonthName (месяц)}} {{year}}"
 
@@ -1409,7 +1417,6 @@ msgid "Basic Configuration"
 msgstr "Основная конфигурация"
 
 #: src/js/pages/user/two-step-auth.vue:52
-#, fuzzy
 msgid "Be sure to re-scan the QR code, as all old codes become invalid."
 msgstr ""
 "Обязательно повторите сканирование QR-кода, так как все старые коды "
@@ -1429,7 +1436,7 @@ msgstr "Блокировать"
 
 #: src/js/pages/admin/brute-force-monitor/_components/block-dialog.vue:3
 msgid "Block %{ subject }"
-msgstr "Блокировать %{subject}"
+msgstr "Блок %{subject}"
 
 #: src/js/pages/user/email/filters.vue:67
 msgid "Block a specific E-mail address"
@@ -1440,7 +1447,6 @@ msgid "Block all e-mails containing stop words"
 msgstr "Блокировать все электронные письма, содержащие стоп-слова"
 
 #: src/js/pages/user/email/filters.vue:76
-#, fuzzy
 msgid "Block all e-mails larger than (KB)"
 msgstr "Блокировать все электронные письма, превышающие (KB)"
 
@@ -1452,11 +1458,11 @@ msgstr "Заблокировать"
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:3
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:29
 msgid "Block List"
-msgstr "Список блокировок"
+msgstr "Список блоков"
 
 #: src/js/pages/user/email/filters.vue:70
 msgid "Block mail from an entire domain"
-msgstr "Блокировать всю почту с домена"
+msgstr "Блокировать почту из целого домена"
 
 #: src/js/pages/user/email/usage/blockcracking.vue:1
 #: src/js/pages/user/email/usage/blockcracking.vue:11
@@ -1466,12 +1472,10 @@ msgid "BlockCracker Blocked Paths"
 msgstr "BlockCracker заблокированные пути"
 
 #: src/js/pages/user/email/usage/index.vue:161
-#, fuzzy
 msgid "BlockCracking Blocked Paths"
 msgstr "Блокированные пути блокировки"
 
 #: src/js/pages/user/email/usage/blockcracking.vue:61
-#, fuzzy
 msgid "BlockCracking Disabled"
 msgstr "Блокировка отключена"
 
@@ -1535,7 +1539,7 @@ msgstr "Корневой сертификат CA"
 
 #: src/js/pages/user/system-info/_tables/memory-info-table.vue:45
 msgid "Cached Swap Memory"
-msgstr "Кэшированная SWAP память"
+msgstr "Кэшированная память обмена"
 
 #: src/js/pages/admin/plugin-manager.vue:15
 #: src/js/pages/admin/plugin-manager.vue:23
@@ -1553,7 +1557,7 @@ msgstr "Отмена"
 
 #: src/js/pages/user/messages/index.vue:121
 msgid "Cannot execute your request"
-msgstr "Не могу выполнить ваш запрос"
+msgstr ""
 
 #: src/js/pages/user/stats/index.vue:129
 #: src/js/components/local/user-package.vue:151
@@ -1676,7 +1680,7 @@ msgstr "Проверять владельца домена перед созда
 
 #: src/js/pages/admin/settings.vue:188
 msgid "Check usage every"
-msgstr "Проверять использование каждый"
+msgstr "Проверяйте использование каждый"
 
 #: src/js/modules/widgets.js:45
 msgid "Choose a new look"
@@ -1748,18 +1752,16 @@ msgstr "Очистить выбор"
 
 #: src/js/components/local/history/chart.vue:127
 #: src/js/components/local/history/chart.vue:155
-#, fuzzy
 msgid "Click for details"
 msgstr "Нажми для деталей"
 
 #: src/js/components/local/reseller-skin-warning-dialog.vue:15
-#, fuzzy
 msgid "Click for more info"
 msgstr "Нажмите для получения дополнительной информации"
 
 #: src/js/pages/user/backup/restore.vue:123
 msgid "Click here for a list of your current backups"
-msgstr "Кликните для просмотра списка ваших бекапов"
+msgstr ""
 
 #: src/js/pages/admin/license.vue:33
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:26
@@ -1893,13 +1895,11 @@ msgid "Complete Usage Statistics"
 msgstr "Статистика сервера"
 
 #: src/js/components/local/filemanager/dialogs/compress-clipboard-files-dialog.vue:32
-#, fuzzy
 msgid "Compress"
 msgstr "Компресс"
 
 #: src/js/components/local/filemanager/dialogs/compress-clipboard-files-dialog.vue:3
 #: src/js/pages/user/filemanager/index.vue:115
-#, fuzzy
 msgid "Compress Files"
 msgstr "Сжатие файлов"
 
@@ -1920,7 +1920,6 @@ msgstr "Настройки Полного Резервного Копирова�
 
 #: src/js/pages/admin/system-backup.vue:16
 #: src/js/pages/admin/system-backup.vue:26
-#, fuzzy
 msgid "Configure Remote Transfer option"
 msgstr "Настройка опции удаленного переноса"
 
@@ -1934,8 +1933,10 @@ msgid "Confirmation"
 msgstr "Подтверждение"
 
 #: src/js/pages/user/database/_dialogs/upload-backup-dialog.vue:19
+#, fuzzy
+#| msgid "SSL Connection"
 msgid "Connection Method"
-msgstr "Способ подключения"
+msgstr "SSL Подключение"
 
 #: src/js/pages/admin/custom-httpd/index.vue:28
 #: src/js/pages/admin/custom-httpd/index.vue:32
@@ -1949,21 +1950,19 @@ msgstr "Содержит"
 #: src/js/pages/user/email/vacations/create.vue:39
 #: src/js/pages/user/email/vacations/modify.vue:35
 msgid "Content-Type"
-msgstr "Content-Type"
+msgstr ""
 
 #: src/js/pages/admin/custom-httpd/view.vue:20
-#, fuzzy
 msgid "Contents of the %{ filename } file for %{ domain }"
-msgstr "Содержимое файла% {filename} для% {domain}"
+msgstr "Содержимое файла %{filename} для %{domain}"
 
 #: src/js/components/local/filemanager/dialogs/copy-file-dialog.vue:30
 msgid "Copy"
 msgstr "Копировать"
 
 #: src/js/components/local/filemanager/dialogs/copy-file-dialog.vue:11
-#, fuzzy
 msgid "Copy %{type} \"%{name}\" to:"
-msgstr "Скопировать% {type} \"% {name}\" в:"
+msgstr "Скопировать %{type} \"%{name}\" в:"
 
 #: src/js/components/local/filemanager/dialogs/copy-file-dialog.vue:7
 #: src/js/components/local/filemanager/files-table.vue:214
@@ -1998,12 +1997,10 @@ msgid "Country"
 msgstr "Страна"
 
 #: src/js/pages/user/system-info/_tables/general-info-table.vue:18
-#, fuzzy
 msgid "CPUs Count"
 msgstr "Количество процессоров"
 
 #: src/js/pages/user/system-info/_tables/cpu-info-table.vue:3
-#, fuzzy
 msgid "CPUs Information"
 msgstr "Информация о процессорах"
 
@@ -2041,7 +2038,7 @@ msgstr "Создайте новый секрет для начала."
 #: src/js/pages/user/email/accounts/create.vue:96
 #: src/js/pages/user/email/accounts/index.vue:19
 msgid "Create Account"
-msgstr "Создать аккаунт"
+msgstr "Регистрация"
 
 #: src/js/pages/admin/users/admins.vue:12
 #: src/js/pages/admin/users/create-admin.vue:1
@@ -2067,11 +2064,11 @@ msgstr "Создать резервную копию"
 
 #: src/js/pages/user/cronjobs/index.vue:12
 msgid "Create cron job"
-msgstr "Создать задачу cron"
+msgstr "Создать работу cron"
 
 #: src/js/pages/user/cronjobs/create.vue:1
 msgid "Create Cron Job"
-msgstr "Создать Cron задачу"
+msgstr "Создать Cron задачу "
 
 #: src/js/pages/user/database/create.vue:1
 #: src/js/pages/user/database/create.vue:82
@@ -2133,7 +2130,7 @@ msgstr "Создать Список Рассылки"
 #: src/js/pages/reseller/_dialogs/create-nameservers-dialog.vue:59
 #: src/js/pages/reseller/nameservers.vue:16
 msgid "Create Nameservers"
-msgstr "Создать неймсерверы"
+msgstr "Создание серверов имен"
 
 #: src/js/pages/user/dashboard/_components/widgets/db.vue:43
 #: src/js/pages/user/database/index.vue:20
@@ -2153,9 +2150,8 @@ msgid "Create New User"
 msgstr "Создать нового пользователя"
 
 #: src/js/pages/user/database/_dialogs/create-db-user-dialog.vue:3
-#, fuzzy
 msgid "Create New User for %{database}"
-msgstr "Создать нового пользователя для% {database}"
+msgstr "Создать нового пользователя для %{database}"
 
 #: src/js/pages/admin/reseller-packages/create.vue:1
 msgid "Create Package"
@@ -2173,7 +2169,6 @@ msgid "Create Reseller Package"
 msgstr "Создать пакет реселлера"
 
 #: src/js/pages/admin/dns/add.vue:72
-#, fuzzy
 msgid "Create Reverse IP Lookup:"
 msgstr "Создать обратный поиск в Интернете:"
 
@@ -2201,11 +2196,11 @@ msgstr "Создать пользователя"
 
 #: src/js/pages/reseller/users/create.vue:91
 msgid "Create User Package"
-msgstr "Создать тариф пользователя"
+msgstr "Создать пользовательский пакет"
 
 #: src/js/pages/user/email/vacations/create.vue:1
 msgid "Create Vacation Message"
-msgstr "Создать сообщение об отсутствии"
+msgstr "Создать сообщение о поездке"
 
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:62
 #, fuzzy
@@ -2222,8 +2217,9 @@ msgid "Create Zone"
 msgstr "Создать зону"
 
 #: src/js/modules/navigation/user.js:120
+#, fuzzy
 msgid "Create/Restore Backups"
-msgstr "Резервное копирование"
+msgstr "Резервное копирование сайта"
 
 #: src/js/pages/user/dns/security.vue:45
 msgid "Created"
@@ -2272,7 +2268,7 @@ msgstr "Планировщик Задач"
 
 #: src/js/pages/reseller/_dialogs/view-ticket.vue:29
 msgid "Ctrl+Enter to post reply"
-msgstr "Ctrl+Enter чтобы ответить"
+msgstr ""
 
 #: src/js/pages/reseller/skins.vue:48
 msgid "Current"
@@ -2316,8 +2312,10 @@ msgid "Current Time"
 msgstr "Текущее время"
 
 #: src/js/pages/admin/stats.vue:23
+#, fuzzy
+#| msgid "Current IPs"
 msgid "Current Usage"
-msgstr "Текущее использование"
+msgstr "Текущие IPs"
 
 #: src/js/pages/admin/custom-httpd/view.vue:52
 #: src/js/pages/user/_components/add-security-question-dialog.vue:18
@@ -2328,12 +2326,10 @@ msgid "Custom"
 msgstr "Настройки"
 
 #: src/js/pages/admin/brute-force-monitor/index.vue:46
-#, fuzzy
 msgid "Custom amount of bytes from the end of the file"
 msgstr "Пользовательское количество байтов с конца файла"
 
 #: src/js/pages/reseller/backups/modify.vue:180
-#, fuzzy
 msgid "Custom Append String"
 msgstr "Пользовательская добавочная строка"
 
@@ -2342,13 +2338,12 @@ msgid "Custom Color %{index}"
 msgstr "Пользовательский цвет %{index}"
 
 #: src/js/pages/admin/system-backup.vue:78
-#, fuzzy
 msgid "Custom Directories & Files"
 msgstr "Пользовательские каталоги и файлы"
 
 #: src/js/modules/navigation/user.js:130
 msgid "Custom Error Pages"
-msgstr "Страницы ошибок"
+msgstr "Персональные страницы ошибок"
 
 #: src/js/pages/admin/custom-httpd/index.vue:1
 #: src/js/modules/navigation/admin.js:67
@@ -2357,7 +2352,6 @@ msgstr "Настройка HTTPD"
 
 #: src/js/pages/admin/backups/modify.vue:181
 #: src/js/pages/admin/backups/schedule.vue:194
-#, fuzzy
 msgid "Custom Path"
 msgstr "Пользовательский путь"
 
@@ -2367,8 +2361,10 @@ msgid "Custom Threshold"
 msgstr "Персональное значение"
 
 #: src/js/pages/user/database/_dialogs/upload-backup-dialog.vue:25
+#, fuzzy
+#| msgid "Username / Password"
 msgid "Custom username & password"
-msgstr "Другие имя пользователя / Пароль"
+msgstr "Имя пользователя Пароль"
 
 #: src/js/pages/user/dns/index.vue:47
 msgid "Custom Value:"
@@ -2393,11 +2389,11 @@ msgstr "CUSTOM4"
 #: src/js/pages/admin/custom-httpd/view.vue:11
 #: src/js/pages/admin/users/resellers/create.vue:88
 #: src/js/pages/reseller/skins.vue:52 src/js/pages/reseller/users/create.vue:63
+#, fuzzy
 msgid "Customize"
 msgstr "Настроить"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:1
-#, fuzzy
 msgid "Customize configuration"
 msgstr "Настройка конфигурации"
 
@@ -2455,7 +2451,7 @@ msgstr "Данные базы данных"
 #: src/js/pages/reseller/users/_components/usage-table.vue:104
 #: src/js/pages/user/stats/index.vue:61
 msgid "Database Disk Usage"
-msgstr "Использование диска базами данных"
+msgstr "Использование диска базы данных"
 
 #: src/js/pages/user/database/create.vue:18
 msgid "Database Name:"
@@ -2542,9 +2538,8 @@ msgstr "День месяца"
 #: src/js/pages/admin/backups/_components/crons-table.vue:31
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:26
 #: src/js/pages/reseller/backups/index.vue:42
-#, fuzzy
 msgid "Day of Month: %{dayofmonth}"
-msgstr "День месяца:% {dayofmonth}"
+msgstr "День месяца: %{dayofmonth}"
 
 #: src/js/pages/admin/backups/modify.vue:115
 #: src/js/pages/admin/backups/schedule.vue:126
@@ -2561,9 +2556,8 @@ msgstr "День недели"
 #: src/js/pages/admin/backups/_components/crons-table.vue:33
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:28
 #: src/js/pages/reseller/backups/index.vue:44
-#, fuzzy
 msgid "Day of Week: %{dayofweek}"
-msgstr "День недели:% {dayofweek}"
+msgstr "День недели: %{dayofweek}"
 
 #: src/js/pages/user/messages/_dialogs/clear-message-system-dialog.vue:25
 msgid "day(s)"
@@ -2576,7 +2570,6 @@ msgid "days"
 msgstr "дней"
 
 #: src/js/pages/admin/settings.vue:297
-#, fuzzy
 msgid "days after entry was made."
 msgstr "дней после ввода."
 
@@ -2695,12 +2688,10 @@ msgid "Delete Handler"
 msgstr "Удалить обработчик"
 
 #: src/js/pages/admin/brute-force-monitor/_components/clear-messages-dialog.vue:26
-#, fuzzy
 msgid "Delete messages newer than"
 msgstr "Удалить сообщения более новые, чем"
 
 #: src/js/pages/admin/brute-force-monitor/_components/clear-messages-dialog.vue:29
-#, fuzzy
 msgid "Delete messages older than"
 msgstr "Удалить сообщения старше, чем"
 
@@ -2738,7 +2729,6 @@ msgid "Deleted"
 msgstr "Удаленный"
 
 #: src/js/pages/admin/system-backup.vue:113
-#, fuzzy
 msgid "Deletes local file before creating the next one"
 msgstr "Удаляет локальный файл перед созданием следующего"
 
@@ -2852,6 +2842,7 @@ msgstr "DirectAdmin не перезапускался после последн�
 
 #: src/js/pages/admin/license.vue:109
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:101
+#, fuzzy
 msgid "DirectAdmin Values"
 msgstr "Значения DirectAdmin"
 
@@ -2864,7 +2855,7 @@ msgstr "Панель управления DirectAdmin © %{year} Програм�
 #: src/js/pages/admin/system-backup.vue:148
 #: src/js/pages/admin/system-backup.vue:30
 msgid "Directories"
-msgstr "Директории"
+msgstr "Справочники"
 
 #: src/js/pages/user/ftp-accounts/create.vue:76
 #: src/js/pages/user/ftp-accounts/edit.vue:49
@@ -2874,11 +2865,11 @@ msgstr "Папку"
 
 #: src/js/components/local/filemanager/dialogs/protect-directory-dialog.vue:22
 msgid "Directory %{ path } already protected."
-msgstr "Каталог %{ path } уже защищен."
+msgstr "Каталог %{path} уже защищен."
 
 #: src/js/components/local/stats/webalizer-table.vue:91
 msgid "Directory:"
-msgstr "Папка:"
+msgstr "Справочник:"
 
 #: src/js/pages/admin/php-safe-mode.vue:26
 msgid "Disable Open Basedir"
@@ -2900,7 +2891,7 @@ msgstr "Отключено"
 
 #: src/js/pages/reseller/customize-skin/index.vue:88
 msgid "Discard"
-msgstr "Отклонить"
+msgstr "отбрасывать"
 
 #: src/js/pages/user/dashboard/_components/widgets/admin-stats.vue:5
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:5
@@ -3004,7 +2995,6 @@ msgid "DNS Security"
 msgstr "Безопасность DNS"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:27
-#, fuzzy
 msgid "Do not add a whole <Virtualhost>..</VirtualHost>"
 msgstr "Не добавляйте целого <Virtualhost> .. </ VirtualHost>"
 
@@ -3017,12 +3007,10 @@ msgid "Do not use CAPS, www, or http:// in your domain name"
 msgstr "Не используйте CAPS, www или http: // в имени домена"
 
 #: src/js/pages/reseller/customize-skin/index.vue:73
-#, fuzzy
 msgid "Do you want to discard all of unsaved changes before leave?"
 msgstr "Вы хотите отменить все несохраненные изменения перед отъездом?"
 
 #: src/js/pages/user/email/spamassassin.vue:90
-#, fuzzy
 msgid "Do you wish to rewrite the subject of a spam e-mail?"
 msgstr "Вы хотите переписать тему спама по электронной почте?"
 
@@ -3085,7 +3073,7 @@ msgstr "IP-адреса домена"
 
 #: src/js/pages/user/domains/index.vue:1
 msgid "Domain management"
-msgstr "Управление доменами"
+msgstr "Управление доменом"
 
 #: src/js/pages/admin/dns/add.vue:17
 msgid "Domain Name:"
@@ -3111,8 +3099,9 @@ msgstr[2] "Указатели домена"
 #: src/js/pages/reseller/stats.vue:219
 #: src/js/pages/reseller/users/_components/usage-table.vue:149
 #: src/js/pages/user/stats/index.vue:95
+#, fuzzy
 msgid "Domain Pointers"
-msgstr "Доменные указатели"
+msgstr "Доменные Указатели"
 
 #: src/js/components/local/dns/records-table.vue:135
 msgid "Domain record was updated successfully"
@@ -3183,7 +3172,7 @@ msgstr "Скачать бекап"
 
 #: src/js/pages/user/email/accounts/index.vue:131
 msgid "Download Outlook Configuration"
-msgstr "Скачать настройки для Outlook"
+msgstr "Загрузить конфигурацию Outlook"
 
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:29
 msgid "Drop"
@@ -3191,12 +3180,12 @@ msgstr "Удалить"
 
 #: src/js/pages/user/email/filters.vue:127
 msgid "Drop E-mail"
-msgstr "Удалить E-mail"
+msgstr "Drop E-mail"
 
 #: src/js/components/global/input/input-dropzone.vue:34
 msgid "Drop file here or click to upload"
 msgid_plural "Drop files here or click to upload"
-msgstr[0] "Перетащите файл сюда или кликните, чтобы загрузить"
+msgstr[0] "Перетащите файл сюда или нажмите, чтобы загрузить"
 msgstr[1] "Перетащите файлы сюда или нажмите, чтобы загрузить"
 msgstr[2] "Перетащите файлы сюда или нажмите, чтобы загрузить"
 
@@ -3226,16 +3215,20 @@ msgid "E-mail"
 msgstr "E-Mail"
 
 #: src/js/pages/reseller/tickets.vue:120
+#, fuzzy
+#| msgid "E-mail a copy of all messages to"
 msgid "E-mail a copy of all messages"
-msgstr "Отправлять копию всех e-mail на"
+msgstr "Отправить копию всех сообщений по электронной почте"
 
 #: src/js/pages/user/messages/_dialogs/message-system-options.vue:9
 msgid "E-mail a copy of all messages to"
-msgstr "Отправлять копию всех e-mail на"
+msgstr "Отправить копию всех сообщений по электронной почте"
 
 #: src/js/pages/user/email/accounts/index.vue:25
+#, fuzzy
+#| msgid "E-mail Accounts"
 msgid "E-mail accounts"
-msgstr "E-Mail аккаунты"
+msgstr "E-Mail Аккаунты"
 
 #: src/js/pages/admin/backups/modify.vue:221
 #: src/js/pages/admin/backups/schedule.vue:237
@@ -3287,7 +3280,7 @@ msgstr ""
 #: src/js/pages/reseller/users/_components/usage-table.vue:99
 #: src/js/pages/user/stats/index.vue:57
 msgid "E-mail Disk Usage"
-msgstr "Использование диска электронной почтой"
+msgstr "Использование диска электронной почты"
 
 #: src/js/pages/user/email/filters.vue:1
 msgid "E-mail Filters"
@@ -3320,7 +3313,7 @@ msgstr "Только E-mail"
 
 #: src/js/modules/widgets.js:65
 msgid "E-mail pending delivery"
-msgstr "E-mail ожидающие отправки"
+msgstr "Ожидание отправки электронной почты"
 
 #: src/js/pages/user/email/accounts/account.vue:59
 #: src/js/pages/user/email/accounts/create.vue:54
@@ -3363,7 +3356,7 @@ msgstr "E-Mails"
 
 #: src/js/pages/user/bandwidth.vue:158
 msgid "E-mails (Incoming / Outgoing)"
-msgstr "Электронная почта (входящая / исходящая)"
+msgstr "Электронная почта (входящий / исходящий)"
 
 #: src/js/components/local/dns/records-table.vue:22
 #: src/js/components/local/dns/records-table.vue:31
@@ -3395,12 +3388,11 @@ msgstr "Изменить категорию"
 
 #: src/js/pages/user/cronjobs/index.vue:97
 msgid "Edit Cron Job"
-msgstr "Изменить задачу Cron"
+msgstr "Изменить работу Cron"
 
 #: src/js/pages/admin/dns/edit.vue:11
-#, fuzzy
 msgid "Edit DNS Records for %{ domain }"
-msgstr "Изменить записи DNS для домена% {domain}"
+msgstr "Изменить записи DNS для домена %{domain}"
 
 #: src/js/components/local/edit-admin-message-dialog.vue:3
 #: src/js/components/local/edit-reseller-message-dialog.vue:3
@@ -3412,8 +3404,10 @@ msgid "Edit File"
 msgstr "Изменить файл"
 
 #: src/js/pages/reseller/customize-skin/_components/menu-editor.vue:76
+#, fuzzy
+#| msgid "Edit File"
 msgid "Edit Link"
-msgstr "Изменить ссылку"
+msgstr "Изменить файл"
 
 #: src/js/pages/reseller/user-packages/view.vue:1
 msgid "Edit Package"
@@ -3433,14 +3427,17 @@ msgid "Edit Reseller Message"
 msgstr "Редактировать сообщение Реселлеру"
 
 #: src/js/pages/reseller/customize-skin/_components/menu-editor.vue:75
+#, fuzzy
+#| msgid "Route"
 msgid "Edit Route"
-msgstr "Изменить путь"
+msgstr "Путь"
 
 #: src/js/pages/reseller/edit-user-message.vue:1
 #: src/js/pages/reseller/users/_components/change-user-message.vue:3
 #: src/js/modules/navigation/reseller.js:34
+#, fuzzy
 msgid "Edit User Message"
-msgstr "Редактировать сообщение пользователю"
+msgstr "Редактировать сообщение Пользователю"
 
 #: src/js/pages/user/redirects.vue:69
 msgid "eg: \"/redirect\", \"/\""
@@ -3461,7 +3458,7 @@ msgstr "пример: Закрытая зона"
 
 #: src/js/pages/user/protected-directories/view.vue:27
 msgid "eg. Member's Area"
-msgstr "напр. Личный кабинет"
+msgstr "например. Область пользователя"
 
 #: src/js/pages/user/_components/create-domain-pointer-dialog.vue:14
 msgid "eg. sourcedomain.com"
@@ -3472,12 +3469,16 @@ msgid "Empty Clipboard"
 msgstr "Очистить буфер обмена"
 
 #: src/js/pages/admin/settings.vue:88
+#, fuzzy
+#| msgid ""
+#| "Enable Admin Demo. Login: <strong>demo_admin</strong> Password : "
+#| "<strong>demo</strong>"
 msgid ""
 "Enable Admin Demo. Login: <strong>%{login}</strong>; Password: <strong>"
 "%{password}</strong>"
 msgstr ""
-"Включить демо администратора. Логин: <strong>%{login}</strong>; Пароль: "
-"<strong>%{password}</strong>"
+"Включить демо администратора. Логин: <strong>demo_admin</ strong> Пароль: "
+"<strong>demo</ strong>"
 
 #: src/js/pages/admin/settings.vue:209
 msgid "Enable Automatic Lost Password Recovery"
@@ -3488,24 +3489,32 @@ msgid "Enable Open Basedir"
 msgstr "Включить Open Basedir"
 
 #: src/js/pages/admin/settings.vue:78
+#, fuzzy
+#| msgid ""
+#| "Enable Reseller Demo. Login: <strong>demo_reseller</strong> Password : "
+#| "<strong>demo</strong>"
 msgid ""
 "Enable Reseller Demo. Login: <strong>%{login}</strong>; Password: <strong>"
 "%{password}</strong>"
 msgstr ""
-"Включить демо реселлера. Логин: <strong>%{login}</strong>; Пароль: <strong>"
-"%{password}</strong>"
+"Включить демо реселлера. Логин: <strong>demo_reseller</ strong> Пароль: "
+"<strong>demo</ strong>"
 
 #: src/js/pages/user/email/spamassassin.vue:226
 msgid "Enable SpamAssassin"
 msgstr "Включить SpamAssassin"
 
 #: src/js/pages/admin/settings.vue:68
+#, fuzzy
+#| msgid ""
+#| "Enable User Demo. Login: <strong>demo_user</strong> Password : "
+#| "<strong>demo</strong>"
 msgid ""
 "Enable User Demo. Login: <strong>%{login}</strong>; Password: <strong>"
 "%{password}</strong>"
 msgstr ""
-"Включить демо пользователя. Логин: <strong>%{login}</strong>; Пароль: "
-"<strong>%{password}</strong>"
+"Включить демо пользователя. Логин: <strong>demo_user</ strong> Пароль: "
+"<strong>demo</ strong>"
 
 #: src/js/components/local/stats/usage-table.vue:31
 #: src/js/pages/admin/dns/index.vue:56 src/js/pages/admin/dns/index.vue:70
@@ -3522,10 +3531,12 @@ msgstr "Включено"
 
 #: src/js/pages/user/email/vacations/index.vue:23
 #: src/js/pages/user/email/vacations/index.vue:34
+#, fuzzy
 msgid "End Time"
 msgstr "Время окончания"
 
 #: src/js/pages/user/password.vue:25
+#, fuzzy
 msgid "Enter new password:"
 msgstr "Введите новый пароль:"
 
@@ -3533,8 +3544,9 @@ msgstr "Введите новый пароль:"
 #: src/js/pages/admin/users/resellers/create.vue:36
 #: src/js/pages/user/ftp-accounts/create.vue:40
 #: src/js/pages/user/ftp-accounts/edit.vue:27
+#, fuzzy
 msgid "Enter Password"
-msgstr "Введите пароль"
+msgstr "Пароль"
 
 #: src/js/pages/reseller/passwords.vue:41
 msgid "Enter Password:"
@@ -3546,6 +3558,7 @@ msgid "equal"
 msgstr "равно"
 
 #: src/js/pages/admin/dns/index.vue:24 src/js/pages/admin/dns/index.vue:30
+#, fuzzy
 msgid "Equals"
 msgstr "Равно"
 
@@ -3570,8 +3583,10 @@ msgid "Error Reading File"
 msgstr "Ошибка чтения файла"
 
 #: src/js/components/global/app/app-notification-center.vue:26
+#, fuzzy
+#| msgid "Error"
 msgid "Errors"
-msgstr "Ошибки"
+msgstr "Ошибка"
 
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:65
 msgid "Event"
@@ -3585,12 +3600,12 @@ msgid "Execute"
 msgstr "Выполнить"
 
 #: src/js/components/local/filemanager/tree-view-item.vue:7
-#, fuzzy
 msgid "Expand"
 msgstr "расширять"
 
 #: src/js/pages/user/two-step-auth.vue:139
 #: src/js/pages/user/two-step-auth.vue:143
+#, fuzzy
 msgid "Expires"
 msgstr "Истекает"
 
@@ -3642,6 +3657,7 @@ msgstr "Доп. функции"
 
 #: src/js/components/local/filemanager/dialogs/extract-file-dialog.vue:22
 #: src/js/components/local/filemanager/files-table.vue:225
+#, fuzzy
 msgid "Extract"
 msgstr "Распаковать"
 
@@ -3654,6 +3670,7 @@ msgid "Extract Archive"
 msgstr "Распаковать архив"
 
 #: src/js/pages/user/email/catch-all.vue:19
+#, fuzzy
 msgid "Fail:"
 msgstr "Ошибка:"
 
@@ -3665,18 +3682,17 @@ msgstr "Ошибочные Авторизации"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:3
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:14
-#, fuzzy
 msgid "Failed Logins: IP list"
 msgstr "Неудачные логины: список IP-адресов"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:3
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:19
-#, fuzzy
 msgid "Failed logins: Usernames List"
 msgstr "Не удалось войти в систему: Список имен пользователей"
 
 #: src/js/pages/user/login-keys/create.vue:250
 #: src/js/pages/user/login-keys/modify.vue:229
+#, fuzzy
 msgid "Feb"
 msgstr "Фев"
 
@@ -3700,10 +3716,14 @@ msgstr "Поле слишком короткое"
 #: src/js/pages/admin/plugin-manager.vue:95
 #: src/js/pages/admin/file-editor.vue:16
 #: src/js/pages/admin/log-viewer/index.vue:16
+#, fuzzy
+#| msgid "File"
+#| msgid_plural "Files"
 msgid "File"
 msgstr "Файл"
 
 #: src/js/pages/admin/file-editor.vue:1 src/js/modules/navigation/admin.js:148
+#, fuzzy
 msgid "File Editor"
 msgstr "Редактор файлов"
 
@@ -3711,6 +3731,7 @@ msgstr "Редактор файлов"
 #: src/js/modules/navigation/admin.js:143
 #: src/js/modules/navigation/reseller.js:93
 #: src/js/modules/navigation/user.js:163
+#, fuzzy
 msgid "File Manager"
 msgstr "Менеджер файлов"
 
@@ -3727,6 +3748,9 @@ msgid "File Type"
 msgstr "Тип файла"
 
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:9
+#, fuzzy
+#| msgid "File"
+#| msgid_plural "Files"
 msgid "File:"
 msgid_plural "Files:"
 msgstr[0] "Файл"
@@ -3735,6 +3759,7 @@ msgstr[2] "Файлы"
 
 #: src/js/components/local/filemanager/files-table.vue:3
 #: src/js/components/local/filemanager/files-table.vue:8
+#, fuzzy
 msgid "Filename"
 msgstr "Имя файла"
 
@@ -3752,9 +3777,8 @@ msgid "Files"
 msgstr "Файлы"
 
 #: src/js/pages/user/disk-usage.vue:33
-#, fuzzy
 msgid "files owned by %{ owner } in"
-msgstr "файлы, принадлежащие% {owner} в"
+msgstr "файлы, принадлежащие %{owner} в"
 
 #: src/js/pages/admin/stats.vue:230 src/js/pages/admin/stats.vue:235
 msgid "Filesystem"
@@ -3773,7 +3797,6 @@ msgid "Filter"
 msgstr "Фильтр"
 
 #: src/js/pages/admin/custom-httpd/view.vue:69
-#, fuzzy
 msgid "Filter Tokens"
 msgstr "Фильтрующие токены"
 
@@ -3857,7 +3880,6 @@ msgid "Free"
 msgstr "Свободно"
 
 #: src/js/pages/user/ssl/index.vue:132
-#, fuzzy
 msgid "Free & automatic certificate from Let's Encrypt"
 msgstr "Бесплатный и автоматический сертификат от Let's Encrypt"
 
@@ -3924,11 +3946,11 @@ msgstr "Ftp аккаунт с корневой директорией в public_
 
 #: src/js/pages/user/stats/index.vue:46 src/js/pages/user/stats/index.vue:98
 msgid "Ftp Accounts"
-msgstr "FTP Аккаунты"
+msgstr "Ftp Аккаунты"
 
 #: src/js/pages/user/ftp-accounts/index.vue:1
 msgid "FTP accounts"
-msgstr "FTP Аккаунты"
+msgstr "Ftp Аккаунты"
 
 #: src/js/pages/admin/backups/modify.vue:206
 #: src/js/pages/admin/backups/schedule.vue:222 src/js/pages/admin/stats.vue:193
@@ -3947,7 +3969,7 @@ msgstr "FTP Аккаунты"
 #: src/js/pages/reseller/stats.vue:220
 #: src/js/pages/reseller/users/_components/usage-table.vue:153
 msgid "FTP Accounts"
-msgstr "FTP Аккаунты"
+msgstr "Ftp Аккаунты"
 
 #: src/js/pages/user/ftp-accounts/index.vue:14
 msgid "FTP Accounts for %{ domain }"
@@ -4085,8 +4107,10 @@ msgstr "Удержание (%{count})"
 
 #: src/js/components/local/user-package.vue:43
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:57
+#, fuzzy
+#| msgid "Domain Directory"
 msgid "Home Directory"
-msgstr "Домашний каталог"
+msgstr "Каталог доменов"
 
 #: src/js/pages/user/email/usage/index.vue:147
 msgid "Host:"
@@ -4108,14 +4132,13 @@ msgstr "Час"
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:25
 #: src/js/pages/reseller/backups/index.vue:41
 msgid "Hour: %{hour}"
-msgstr "Час: % {hour}"
+msgstr "Час: %{hour}"
 
 #: src/js/pages/admin/settings.vue:290
 msgid "hours after last attempt."
 msgstr "часов после последней попытки."
 
 #: src/js/pages/user/login-keys/index.vue:98
-#, fuzzy
 msgid ""
 "However, these password have attributes, such as the ability to expire, "
 "usage limit, and can be limited to certain functions."
@@ -4129,7 +4152,6 @@ msgid "HTTPD data"
 msgstr "Данные HTTPD"
 
 #: src/js/components/global/ui/ui-color-picker.vue:52
-#, fuzzy
 msgid "Hue"
 msgstr "оттенок"
 
@@ -4152,26 +4174,22 @@ msgid "ID"
 msgstr "ID"
 
 #: src/js/pages/admin/system-backup.vue:99
-#, fuzzy
 msgid "id_dsa.pub for scp (~/user/.ssh/authorized_keys2)"
 msgstr "id_dsa.pub для scp (~ / user / .ssh / authorized_keys2)"
 
 #: src/js/pages/user/login-keys/create.vue:179
-#, fuzzy
 msgid "If no commands are checked (allow and deny), all commands are allowed."
 msgstr ""
 "Если команды не отмечены (разрешить и запретить), все команды разрешены."
 
 #: src/js/pages/admin/backups/restore.vue:109
 #: src/js/pages/reseller/backups/restore.vue:103
-#, fuzzy
 msgid "If the user already exists, this setting will have no effect."
 msgstr ""
 "Если пользователь уже существует, этот параметр не будет иметь никакого "
 "эффекта."
 
 #: src/js/pages/admin/backups/restore.vue:116
-#, fuzzy
 msgid ""
 "If using the IPs from within the backup, any IPs that don't exist on this "
 "system will not be included. If there no IPs to be used, a Reseller or Admin "
@@ -4191,7 +4209,6 @@ msgid "Ignore:"
 msgstr "Игнорировать:"
 
 #: src/js/components/local/dropzone-file-preview.vue:33
-#, fuzzy
 msgid "Image preview"
 msgstr "Предварительный просмотр изображения"
 
@@ -4208,7 +4225,7 @@ msgstr "IMAP:"
 #: src/js/pages/admin/backups/index.vue:25
 #: src/js/pages/admin/backups/index.vue:28
 msgid "In Progress"
-msgstr "Обрабатывается"
+msgstr "В работе"
 
 #: src/js/pages/user/email/spamassassin.vue:26
 #, fuzzy
@@ -4216,7 +4233,6 @@ msgid "Inbox (don't block it)"
 msgstr "Входящие (не блокировать их)"
 
 #: src/js/pages/user/_components/add-security-question-dialog.vue:9
-#, fuzzy
 msgid "Included"
 msgstr "включены"
 
@@ -4249,6 +4265,7 @@ msgstr "Информация о доступе"
 
 #: src/js/components/global/app/app-notification-center.vue:20
 #, fuzzy
+#| msgid "CPUs Information"
 msgid "Information"
 msgstr "Информация о процессорах"
 
@@ -4287,7 +4304,7 @@ msgstr "Вставить"
 #: src/js/pages/admin/plugin-manager.vue:110
 #: src/js/pages/admin/plugin-manager.vue:62
 msgid "Install"
-msgstr "Установить"
+msgstr "устанавливать"
 
 #: src/js/pages/admin/plugin-manager.vue:105
 msgid "Install after upload"
@@ -4313,7 +4330,7 @@ msgstr "Perl Модули"
 #: src/js/pages/admin/license.vue:43
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:36
 msgid "Internal"
-msgstr "Внутренний"
+msgstr "внутренний"
 
 #: src/js/pages/user/email/lists/modify.vue:105
 #, fuzzy
@@ -4369,7 +4386,7 @@ msgstr[2] "IP"
 
 #: src/js/pages/admin/brute-force-monitor/_components/skip-dialog.vue:13
 msgid "IP / Range / Domain / E-mail"
-msgstr "IP / Диапазон / Домен / E-mail"
+msgstr "IP / Range / Domain / E-mail"
 
 #: src/js/pages/admin/brute-force-monitor/skip_list.vue:11
 #: src/js/pages/admin/brute-force-monitor/skip_list.vue:15
@@ -4417,9 +4434,8 @@ msgid "IP Info"
 msgstr "IP инфо"
 
 #: src/js/pages/admin/brute-force-monitor/_components/ipinfo-dialog.vue:3
-#, fuzzy
 msgid "IP Info: %{ ip }"
-msgstr "IP-информация:% {ip}"
+msgstr "IP-информация: %{ip}"
 
 #: src/js/pages/reseller/ip-config.vue:1 src/js/modules/navigation/admin.js:77
 #: src/js/modules/navigation/reseller.js:47
@@ -4449,7 +4465,6 @@ msgid "IPs"
 msgstr "IPs"
 
 #: src/js/pages/user/email/spamassassin.vue:240
-#, fuzzy
 msgid ""
 "It will free up some space, but will reset any learned progress SpamAssassin "
 "has previously made."
@@ -4460,7 +4475,7 @@ msgstr ""
 #: src/js/components/global/ui/ui-ipp.vue:7
 #, fuzzy
 msgid "Items per page"
-msgstr "Значений на страницу"
+msgstr "Значений на Страницу"
 
 #: src/js/pages/user/login-keys/create.vue:249
 #: src/js/pages/user/login-keys/modify.vue:228
@@ -4501,11 +4516,12 @@ msgid "Keep Number of Apache Log Backups"
 msgstr "Количество ротаций логов Apache"
 
 #: src/js/pages/user/login-keys/index.vue:104
+#, fuzzy
 msgid "key"
 msgid_plural "keys"
-msgstr[0] "ключ"
-msgstr[1] "ключ"
-msgstr[2] "ключ"
+msgstr[0] "Ключ"
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/js/pages/user/dns/security.vue:43
 #: src/js/pages/user/ssl/_components/paste-cert-tab.vue:4
@@ -4531,7 +4547,6 @@ msgid "Key Value:"
 msgstr "Значение ключа:"
 
 #: src/js/pages/user/dns/security.vue:124
-#, fuzzy
 msgid "Key-Signing Key"
 msgstr "Key-Signing Key"
 
@@ -4550,7 +4565,6 @@ msgstr "Убить"
 
 #: src/js/pages/kitchen-sink/index.vue:1
 #: src/js/components/global/app/app-user-bar.vue:93
-#, fuzzy
 msgid "Kitchen sink"
 msgstr "Кухонная мойка"
 
@@ -4638,7 +4652,6 @@ msgid "Licensing / Updates"
 msgstr "Лиценция / Обновления"
 
 #: src/js/components/global/ui/ui-color-picker.vue:64
-#, fuzzy
 msgid "Lightness"
 msgstr "расторопность"
 
@@ -4653,7 +4666,7 @@ msgstr "Лимит"
 
 #: src/js/pages/user/email/accounts/create.vue:84
 msgid "Limit can't be larger than %{ limit }"
-msgstr "Лимит не может быть больше, чем %{ limit }"
+msgstr ""
 
 #: src/js/pages/admin/ip-manager/details.vue:166
 #: src/js/pages/reseller/customize-skin/_components/menu-editor.vue:54
@@ -4670,12 +4683,10 @@ msgid "Link IP"
 msgstr "Присоединить IP"
 
 #: src/js/pages/admin/ip-manager/details.vue:75
-#, fuzzy
 msgid "Linked IP(s)"
 msgstr "Связанные IP-адреса"
 
 #: src/js/pages/admin/ip-manager/details.vue:144
-#, fuzzy
 msgid ""
 "Linking an IP with apache will add the linked IP into the VirtualHost with "
 "the current IP."
@@ -4684,7 +4695,6 @@ msgstr ""
 "текущим IP-адресом."
 
 #: src/js/pages/admin/ip-manager/details.vue:132
-#, fuzzy
 msgid ""
 "Linking an IP with dns will duplicate the A/AAAA records for the current IP "
 "with the linked IP."
@@ -4704,14 +4714,12 @@ msgid "List Administrators"
 msgstr "Список Админов"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:68
-#, fuzzy
 msgid "List filtered by IP: %{ ip }"
-msgstr "Список, отфильтрованный по IP:% {ip}"
+msgstr "Список, отфильтрованный по IP: %{ip}"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:74
-#, fuzzy
 msgid "List filtered by User: %{ user } "
-msgstr "Список, отфильтрованный пользователем:% {user}"
+msgstr "Список, отфильтрованный пользователем: %{user} "
 
 #: src/js/pages/user/email/lists/modify.vue:239
 #, fuzzy
@@ -4729,8 +4737,9 @@ msgid "List Resellers"
 msgstr "Список Реселлеров"
 
 #: src/js/modules/navigation/reseller.js:19 src/js/modules/widgets.js:39
+#, fuzzy
 msgid "List Users"
-msgstr "Список пользователей"
+msgstr "Список Пользователей"
 
 #: src/js/pages/admin/stats.vue:203
 #, fuzzy
@@ -4771,21 +4780,20 @@ msgstr "Локальный путь URL"
 
 #: src/js/pages/reseller/backups/modify.vue:121
 msgid "Local: %{ local_path }"
-msgstr "Локальный: %{ local_path }"
+msgstr "Локальный: %{local_path}"
 
 #: src/js/pages/reseller/backups/restore.vue:30
 #: src/js/pages/reseller/backups/schedule.vue:118
 msgid "Local: %{ location }"
-msgstr "Локальный: %{ location }"
+msgstr "Локальный: %{location}"
 
 #: src/js/pages/admin/backups/restore.vue:123
 msgid "Location"
 msgstr "Размещение"
 
 #: src/js/pages/reseller/backups/restore.vue:112
-#, fuzzy
 msgid "Location: %{location}"
-msgstr "Местоположение:% {location}"
+msgstr "Местоположение: %{location}"
 
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:47
 msgid "Lock Tables"
@@ -4828,7 +4836,7 @@ msgstr "Успешная авторизация"
 #: src/js/components/local/standard-auth-dialog.vue:37
 #: src/js/components/local/two-step-auth-dialog.vue:47
 msgid "Logged in successfully..."
-msgstr "Успешная авторизация..."
+msgstr "Записан"
 
 #: src/js/pages/admin/multi-server.vue:43
 #: src/js/pages/user/dashboard/_components/widgets/email-pop.vue:10
@@ -4857,12 +4865,10 @@ msgid "Login Failures"
 msgstr "Неудачные логины"
 
 #: src/js/pages/admin/settings.vue:282
-#, fuzzy
 msgid "login failures from any IP."
 msgstr "неудачи входа из любого IP-адреса."
 
 #: src/js/pages/admin/settings.vue:274
-#, fuzzy
 msgid "login failures on any account."
 msgstr "ошибки входа в любой учетной записи."
 
@@ -4885,7 +4891,6 @@ msgid "Login Keys"
 msgstr "Ключи входа"
 
 #: src/js/pages/user/login-keys/index.vue:97
-#, fuzzy
 msgid "Login keys allow you to create extra passwords for your account."
 msgstr ""
 "Ключи входа позволяют создавать дополнительные пароли для вашей учетной "
@@ -5064,14 +5069,12 @@ msgid "Max limit User can set per E-mail"
 msgstr "Максимальный лимит, который пользователь может установить на E-Mail"
 
 #: src/js/pages/admin/settings.vue:150
-#, fuzzy
 msgid "Max Request / Upload Size"
 msgstr "Максимальный размер запроса / загрузки"
 
 #: src/js/pages/user/ssl/_components/lets-encrypt-tab.vue:12
-#, fuzzy
 msgid "Maximum requests per week: %{n}"
-msgstr "Максимальное количество запросов в неделю:% {n}"
+msgstr "Максимальное количество запросов в неделю: %{n}"
 
 #: src/js/pages/user/email/lists/modify.vue:211
 #, fuzzy
@@ -5088,8 +5091,10 @@ msgid "May"
 msgstr "Май"
 
 #: src/js/pages/user/email/accounts/index.vue:29
+#, fuzzy
+#| msgid "Disk Space"
 msgid "MB disk space"
-msgstr "MB дискового пространства"
+msgstr "Дисковое Пространство"
 
 #: src/js/pages/user/email/spamassassin.vue:55
 msgid "Medium Threshold (7.5)"
@@ -5140,8 +5145,9 @@ msgstr "Сообщение"
 
 #: src/js/pages/reseller/message-users.vue:1
 #: src/js/modules/navigation/reseller.js:70
+#, fuzzy
 msgid "Message All Users"
-msgstr "Сообщение всем пользователям"
+msgstr "Оповестить Всех Пользователей"
 
 #: src/js/pages/user/email/lists/modify.vue:263
 #, fuzzy
@@ -5200,7 +5206,7 @@ msgstr[2] "Mime-типы"
 #: src/js/pages/user/mimetypes/index.vue:1
 #, fuzzy
 msgid "MimeTypes"
-msgstr "Mime-типы"
+msgstr "MimeTypes"
 
 #: src/js/pages/admin/system-backup.vue:49
 msgid "Minumum disk space required for backup (MB)"
@@ -5268,17 +5274,14 @@ msgid "Modify Domain"
 msgstr "Изменить домен"
 
 #: src/js/pages/user/email/accounts/account.vue:1
-#, fuzzy
 msgid "Modify E-mail Account"
 msgstr "Изменить учетную запись электронной почты"
 
 #: src/js/pages/user/email/accounts/account.vue:10
-#, fuzzy
 msgid "Modify E-mail Account for %{account}"
-msgstr "Изменить учетную запись электронной почты для% {account}"
+msgstr "Изменить учетную запись электронной почты для %{account}"
 
 #: src/js/pages/user/email/_components/modify-forwarder-dialog.vue:3
-#, fuzzy
 msgid "Modify Forwarder"
 msgstr "Изменить форвардер"
 
@@ -5299,9 +5302,8 @@ msgid "Modify Mailing List"
 msgstr "Изменить Список Рассылки"
 
 #: src/js/pages/user/email/lists/modify.vue:10
-#, fuzzy
 msgid "Modify Mailing List: %{list}"
-msgstr "Изменить список рассылки:% {list}"
+msgstr "Изменить список рассылки: %{list}"
 
 #: src/js/pages/user/dns/index.vue:30 src/js/pages/user/dns/mx-records.vue:1
 msgid "Modify MX Records"
@@ -5330,7 +5332,7 @@ msgstr "Изменить пакет реселлеров"
 
 #: src/js/pages/admin/users/resellers/modify.vue:10
 msgid "Modify Reseller: {{ user }}"
-msgstr "Изменить реселлера: {{ user }}"
+msgstr "Изменить реселлера: {{user}}"
 
 #: src/js/pages/reseller/users/modify.vue:1
 #: src/js/pages/reseller/users/view.vue:28
@@ -5400,12 +5402,15 @@ msgid "Move Users Between Resellers"
 msgstr "Перемещение Пользователей между Реселлерами"
 
 #: src/js/pages/admin/multi-server.vue:24
+#, fuzzy
+#| msgid "Multi Server is currently turned <strong>OFF</strong>"
 msgid "Multi Server is currently turned OFF"
-msgstr "Мульти Сервер сейчас <strong>ОТКЛЮЧЕН</ strong>"
+msgstr "Multi Server сейчас <strong>ОТКЛЮЧЕН</ strong>"
 
 #: src/js/pages/admin/multi-server.vue:1 src/js/modules/navigation/admin.js:82
+#, fuzzy
 msgid "Multi Server Setup"
-msgstr "МультиСервер настройка"
+msgstr "Настройка МультиСервера"
 
 #: src/js/pages/user/email/lists/modify.vue:139
 #, fuzzy
@@ -5470,7 +5475,7 @@ msgstr "Name Server 1"
 
 #: src/js/pages/admin/dns/add.vue:45
 msgid "Name Server 1:"
-msgstr "Неймсервер 1:"
+msgstr "Сервер имен 1:"
 
 #: src/js/pages/reseller/nameservers.vue:49
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:59
@@ -5481,11 +5486,12 @@ msgstr "Name Server 2"
 
 #: src/js/pages/admin/dns/add.vue:61
 msgid "Name Server 2:"
-msgstr "Неймсервер 2:"
+msgstr "Сервер имен 2:"
 
 #: src/js/pages/reseller/nameservers.vue:1
+#, fuzzy
 msgid "Name Servers"
-msgstr "Неймсерверы"
+msgstr "Сервера Имен"
 
 #: src/js/components/local/skins/upload-skin-dialog.vue:14
 #: src/js/pages/user/protected-directories/view.vue:25
@@ -5493,6 +5499,7 @@ msgid "Name:"
 msgstr "Имя:"
 
 #: src/js/pages/reseller/nameservers.vue:60
+#, fuzzy
 msgid "nameserver"
 msgstr "Неймсервер"
 
@@ -5505,30 +5512,32 @@ msgstr "Неймсервер"
 #: src/js/pages/reseller/ip-config.vue:18
 #: src/js/pages/reseller/nameservers.vue:25
 #: src/js/pages/user/dashboard/_components/widgets/ip-config.vue:13
+#, fuzzy
 msgid "Nameserver"
 msgstr "Неймсервер"
 
 #: src/js/pages/reseller/users/_components/account-info.vue:60
 #: src/js/pages/user/stats/index.vue:129 src/js/pages/user/stats/index.vue:139
 msgid "Nameserver 1"
-msgstr "Неймсервер 1"
+msgstr "Nameserver 1"
 
 #: src/js/pages/reseller/_dialogs/create-nameservers-dialog.vue:18
 msgid "Nameserver 1:"
-msgstr "Неймсервер 1:"
+msgstr "Nameserver 1:"
 
 #: src/js/pages/reseller/users/_components/account-info.vue:69
 #: src/js/pages/user/stats/index.vue:129 src/js/pages/user/stats/index.vue:142
 msgid "Nameserver 2"
-msgstr "Неймсервер 2"
+msgstr "Nameserver 2"
 
 #: src/js/pages/reseller/_dialogs/create-nameservers-dialog.vue:34
 msgid "Nameserver 2:"
-msgstr "Неймсервер 2:"
+msgstr "Nameserver 2:"
 
 #: src/js/modules/navigation/reseller.js:52
+#, fuzzy
 msgid "Nameservers"
-msgstr "Неймсерверы"
+msgstr "Сервера Доменных имен"
 
 #: src/js/components/global/app/app-navigation-type-switch.vue:3
 msgid "Navigation"
@@ -5653,7 +5662,6 @@ msgstr ""
 "Не исользовать вложения, оставит спам неизменным, кроме спам-заголовков."
 
 #: src/js/pages/user/login-keys/index.vue:99
-#, fuzzy
 msgid ""
 "Note that the Login Keys are one-way encrypted, just like passwords. They "
 "cannot be retrieved if you forget them."
@@ -5665,11 +5673,10 @@ msgstr ""
 #: src/js/pages/user/cronjobs/create.vue:38
 #: src/js/pages/user/cronjobs/index.vue:113
 msgid "Note that there are no spaces"
-msgstr "Обратите внимание без пробелов."
+msgstr ""
 
 #: src/js/pages/admin/backups/restore.vue:106
 #: src/js/pages/reseller/backups/restore.vue:98
-#, fuzzy
 msgid ""
 "Note that you must set the IP to be shared if you want to add multiple users "
 "to it. If you select a non-shared IP, you can only restore 1 user to it."
@@ -5679,7 +5686,6 @@ msgstr ""
 "вы сможете восстановить только 1 пользователя."
 
 #: src/js/pages/user/email/usage/index.vue:112
-#, fuzzy
 msgid ""
 "Note: For older exim.pl files before version 13, each delivery attempt is "
 "counted, including retries."
@@ -5728,11 +5734,10 @@ msgid ""
 "Notify me on all incorrect codes entries. Disabling this option will still "
 "notify you after 5 failed attempts."
 msgstr ""
-"Сообщайте мне обо всех неправильных вводах кодов. Отключение этой опции по-"
+"Сообщите обо всех неправильных вводах кодов. Отключение этой опции по-"
 "прежнему будет уведомлять вас после 5 неудачных попыток."
 
 #: src/js/components/local/reseller-skin-warning-dialog.vue:7
-#, fuzzy
 msgid ""
 "Notifying you that if you 'Login As' this account, you might be using a skin "
 "who's code under their control."
@@ -5780,7 +5785,6 @@ msgstr "Количество строк для показа"
 
 #: src/js/pages/user/login-keys/create.vue:74
 #: src/js/pages/user/login-keys/modify.vue:60
-#, fuzzy
 msgid "Number of requests allowed with this key. 0=Unlimited"
 msgstr ""
 "Количество запросов, разрешенных с помощью этого ключа. 0 = не ограничено"
@@ -5829,7 +5833,6 @@ msgstr "По расписанию"
 
 #: src/js/pages/user/login-keys/create.vue:155
 #: src/js/pages/user/login-keys/modify.vue:139
-#, fuzzy
 msgid ""
 "One IP per line. <br>\n"
 "Ranges allowed: 1.2.3.4-5 <br>\n"
@@ -5840,7 +5843,6 @@ msgstr ""
 "Оставьте пустым, чтобы разрешить любой IP-адрес."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:20
-#, fuzzy
 msgid "Only add the few lines of the server code you need to insert."
 msgstr ""
 "Добавляйте только несколько строк кода сервера, которые нужно вставить."
@@ -5878,7 +5880,6 @@ msgstr "Open BaseDir"
 
 #: src/js/components/global/input/input-select.vue:19
 #: src/js/components/global/ui/ui-button-dropdown.vue:6
-#, fuzzy
 msgid "Open dropdown"
 msgstr "Открыть раскрывающийся список"
 
@@ -6089,9 +6090,8 @@ msgid "PHP Version Selector"
 msgstr "PHP выбор версии"
 
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:11
-#, fuzzy
 msgid "PHP-FPM config customization for %{ user } php-fpm %{ version }"
-msgstr "Настройка PHP-FPM конфигурации для% {user} php-fpm% {version}"
+msgstr "Настройка PHP-FPM конфигурации для %{user} php-fpm %{version}"
 
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:1
 msgid "PHP-FPM Configuration"
@@ -6127,7 +6127,7 @@ msgstr "Введите критерии поиска"
 #: src/js/pages/user/ftp-accounts/create.vue:134
 #: src/js/pages/user/ftp-accounts/edit.vue:132
 msgid "Please provide custom directory in the field below"
-msgstr "Пожалуйста, укажите особую папку в поле ниже"
+msgstr "Пожалуйста, предоставьте пользовательский каталог в поле ниже"
 
 #: src/js/pages/admin/plugin-manager.vue:15
 #: src/js/pages/admin/plugin-manager.vue:19
@@ -6161,7 +6161,7 @@ msgstr "Pop"
 #: src/js/pages/reseller/users/_components/usage-table.vue:121
 #: src/js/pages/user/stats/index.vue:74
 msgid "POP E-mail Accounts"
-msgstr "POP аккаунты E-mail"
+msgstr "Учетные записи электронной почты POP"
 
 #: src/js/pages/admin/backups/modify.vue:162
 #: src/js/pages/admin/backups/restore.vue:70
@@ -6207,7 +6207,7 @@ msgstr "Предотвращает занесение 127.0.0.1 в Заблок�
 
 #: src/js/pages/user/cronjobs/create.vue:95
 msgid "Prevent E-mail"
-msgstr "Не отправлять E-mail"
+msgstr "Предотвращение электронной почты"
 
 #: src/js/components/local/filemanager/pagination.vue:4
 #: src/js/components/global/ui/ui-pagination.vue:89
@@ -6236,11 +6236,10 @@ msgstr "Приоритет:"
 
 #: src/js/pages/user/domains/edit.vue:141
 msgid "private_html option has been updated"
-msgstr "изменена опция private_html"
+msgstr "Изменена опция private_html"
 
 #: src/js/pages/user/domains/_components/private-html-dialog.vue:3
 #: src/js/pages/user/domains/edit.vue:56
-#, fuzzy
 msgid "private_html setup"
 msgstr "Настройка private_html"
 
@@ -6265,13 +6264,13 @@ msgstr "Частота Процессора (MHz)"
 
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:69
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:55
-#, fuzzy
 msgid "Profile Setup"
 msgstr "Настройка профиля"
 
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:2
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:12
 #, fuzzy
+#| msgid "Compress"
 msgid "Progress"
 msgstr "Компресс"
 
@@ -6281,7 +6280,6 @@ msgid "Protect"
 msgstr "Защитить"
 
 #: src/js/components/local/filemanager/dialogs/protect-directory-dialog.vue:5
-#, fuzzy
 msgid "Protect Directory"
 msgstr "Защитить каталог"
 
@@ -6291,12 +6289,10 @@ msgid "Protected Directories"
 msgstr "Защищенные папки"
 
 #: src/js/components/local/filemanager/dialogs/protect-directory-dialog.vue:10
-#, fuzzy
 msgid "Protected Directory Prompt"
 msgstr "Защищенная справочная система"
 
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:83
-#, fuzzy
 msgid "Public"
 msgstr "общественного"
 
@@ -6317,7 +6313,6 @@ msgid "Purge Archives"
 msgstr "Удалить архивы "
 
 #: src/js/pages/user/email/lists/index.vue:82
-#, fuzzy
 msgid "Purge Archives older than"
 msgstr "Архив чистки старше, чем"
 
@@ -6332,7 +6327,6 @@ msgid "Purge Received"
 msgstr "Поступила очистка"
 
 #: src/js/pages/admin/settings.vue:374
-#, fuzzy
 msgid "Purge Spambox / Trash data after (days)"
 msgstr "Очистка данных Spambox / Trash после (дней)"
 
@@ -6370,7 +6364,6 @@ msgid "raw"
 msgstr "raw"
 
 #: src/js/pages/user/dns/security.vue:13
-#, fuzzy
 msgid "Re-sign your zone"
 msgstr "Повторно подпишите свою зону"
 
@@ -6422,7 +6415,6 @@ msgstr[1] "Редиректы"
 msgstr[2] "Редиректы"
 
 #: src/js/pages/user/email/spamassassin.vue:29
-#, fuzzy
 msgid "Redirect it to the catch-all spam folder in your main IMAP acount"
 msgstr ""
 "Перенаправить его в папку со всеми спамами в основной учетной записи IMAP"
@@ -6445,7 +6437,6 @@ msgid "Reload"
 msgstr "Перезагрузка"
 
 #: src/js/pages/admin/process-monitor.vue:21
-#, fuzzy
 msgid "Reload every"
 msgstr "Перезагрузить страницу"
 
@@ -6455,18 +6446,17 @@ msgid "Reload Files"
 msgstr "Перезагрузить файлы"
 
 #: src/js/pages/admin/process-monitor.vue:33
-#, fuzzy
 msgid "reload in %{delay} seconds"
-msgstr "перезагрузить в% {delay} секунд"
+msgstr "перезагрузить в %{delay} секунд"
 
 #: src/js/pages/admin/log-viewer/view.vue:60 src/js/pages/user/stats/log.vue:50
 #: src/js/pages/user/subdomains/logs.vue:41
 msgid "Reload Log"
-msgstr "Перезагрузить журнал"
+msgstr "Перезагрузка журнала"
 
 #: src/js/pages/admin/process-monitor.vue:36
 msgid "reloading..."
-msgstr "перезагрузка ..."
+msgstr "перегрузочные ..."
 
 #: src/js/pages/admin/system-backup.vue:119
 msgid "Remote Host"
@@ -6600,7 +6590,7 @@ msgstr "Ответить на"
 #: src/js/pages/user/email/vacations/create.vue:47
 #: src/js/pages/user/email/vacations/modify.vue:43
 msgid "Reply Frequency"
-msgstr "Частота ответов"
+msgstr "Частота ответа"
 
 #: src/js/pages/user/email/lists/modify.vue:27
 msgid "Reply To"
@@ -6617,9 +6607,9 @@ msgid ""
 msgstr "Требовать правильный ответ на секретный вопрос для входа в аккаунт"
 
 #: src/js/pages/user/two-step-auth.vue:99
+#, fuzzy
 msgid "Require valid Two-Step Authentication Code to login to this account."
-msgstr ""
-"Требовать правильный код двухэтапной аутентификации для входа в аккаунт."
+msgstr "Требует правильный код двухэтапной аутентификации для входа в аккаунт."
 
 #: src/js/pages/user/password.vue:19
 #: src/js/components/global/ui/ui-form-element.vue:99
@@ -6651,9 +6641,8 @@ msgid "Reseller History"
 msgstr "История реселлера"
 
 #: src/js/components/local/reseller-skin-warning-dialog.vue:3
-#, fuzzy
 msgid "Reseller Skin owned by %{ owner }"
-msgstr "Костел реселлера, принадлежащий% {owner}"
+msgstr "Скин реселлера, принадлежащий %{owner}"
 
 #: src/js/modules/navigation/reseller.js:103
 msgid "Reseller Statistics"
@@ -6735,7 +6724,6 @@ msgid "Reset Uses"
 msgstr "Сбросить использования"
 
 #: src/js/pages/admin/dns/_components/reset-zone-defaults-dialog.vue:4
-#, fuzzy
 msgid "Resetting the defaults will wipe any custom entries you have made."
 msgstr ""
 "Сброс настроек по умолчанию приведет к стиранию любых сделанных вами "
@@ -6784,11 +6772,10 @@ msgstr "Параметры восстановления"
 #: src/js/pages/admin/backups/_components/backup-restore-settings-dialog.vue:13
 #: src/js/pages/reseller/backups/_components/settings-dialog.vue:13
 msgid "Restore with local NameServers."
-msgstr "Восстановить из локальных неймсерверов."
+msgstr "Восстановить с помощью локальных имен."
 
 #: src/js/pages/admin/backups/_components/backup-restore-settings-dialog.vue:27
 #: src/js/pages/reseller/backups/_components/settings-dialog.vue:27
-#, fuzzy
 msgid "Restore with SPF values from backup."
 msgstr "Восстановить с помощью значений SPF из резервной копии."
 
@@ -6809,7 +6796,6 @@ msgstr "Перезаписать Apache"
 
 #: src/js/components/local/filemanager/breadcrumbs.vue:4
 #: src/js/components/local/filemanager/folder-tree-view.vue:27
-#, fuzzy
 msgid "Root"
 msgstr "корень"
 
@@ -6829,7 +6815,6 @@ msgid "Run on @reboot"
 msgstr "Запустить при @reboot"
 
 #: src/js/pages/admin/system-backup.vue:12
-#, fuzzy
 msgid "Run System Backup right now"
 msgstr "Запустить резервное копирование системы прямо сейчас"
 
@@ -6854,7 +6839,6 @@ msgid "Same as Main account"
 msgstr "Как для основного аккаунта"
 
 #: src/js/components/global/ui/ui-color-picker.vue:58
-#, fuzzy
 msgid "Saturation"
 msgstr "насыщение"
 
@@ -6900,6 +6884,7 @@ msgstr "насыщение"
 #: src/js/pages/user/ssl/_components/save-button.vue:4
 #: src/js/pages/user/stats/index.vue:220
 #: src/js/pages/user/two-step-auth.vue:121
+#, fuzzy
 msgid "Save"
 msgstr "Сохранить"
 
@@ -6917,7 +6902,7 @@ msgstr "Сохранить имя"
 
 #: src/js/pages/reseller/users/_components/account-info.vue:84
 msgid "Save Nameservers"
-msgstr "Сохранить неймсерверы"
+msgstr "Сохранить имена серверов"
 
 #: src/js/pages/admin/settings.vue:301
 #, fuzzy
@@ -6966,7 +6951,6 @@ msgid "Scratch Codes"
 msgstr "Запасные коды"
 
 #: src/js/pages/user/two-step-auth.vue:167
-#, fuzzy
 msgid ""
 "Scratch Codes are one-time use codes in case you don't have your phone, so "
 "keep them safe."
@@ -7035,7 +7019,7 @@ msgstr "Секретные вопросы"
 #: src/js/pages/user/security-questions.vue:61
 #: src/js/pages/user/security-questions.vue:79
 msgid "Security Questions options"
-msgstr "Параметры секретных вопросов"
+msgstr "Параметры вопросов безопасности"
 
 #: src/js/pages/admin/settings.vue:12 src/js/pages/admin/settings.vue:22
 msgid "Security Settings"
@@ -7072,8 +7056,9 @@ msgid "Select data you would like to backup."
 msgstr "Выберите данные, для которых вы хотите делать резервные копии."
 
 #: src/js/pages/user/database/_dialogs/upload-backup-dialog.vue:6
+#, fuzzy
 msgid "Select Database"
-msgstr "Выбрать базу данных"
+msgstr "Выбранные Данные"
 
 #: src/js/pages/admin/backups/modify.vue:11
 #: src/js/pages/admin/backups/schedule.vue:11
@@ -7180,9 +7165,8 @@ msgid "Selected Data"
 msgstr "Выбранные Данные"
 
 #: src/js/pages/user/ssl/_components/lets-encrypt-tab.vue:9
-#, fuzzy
 msgid "Selected entries count: %{n}"
-msgstr "Количество выбранных записей:% {n}"
+msgstr "Количество выбранных записей: %{n}"
 
 #: src/js/pages/admin/ip-manager/details.vue:185
 msgid "Selected IP:"
@@ -7248,7 +7232,6 @@ msgstr "Количество отправок"
 #: src/js/pages/admin/users/create-admin.vue:53
 #: src/js/pages/admin/users/resellers/create.vue:80
 #: src/js/pages/reseller/users/create.vue:80
-#, fuzzy
 msgid "Send E-mail Notification"
 msgstr "Отправить уведомление по электронной почте"
 
@@ -7259,7 +7242,6 @@ msgid "Send Limit"
 msgstr "Лимит на отправку"
 
 #: src/js/pages/user/email/spamassassin.vue:32
-#, fuzzy
 msgid "Send the spam to the user's spam folder"
 msgstr "Отправить спам в папку спама пользователя"
 
@@ -7269,7 +7251,6 @@ msgid "Send to spambox"
 msgstr "Отправить в спам-ящик"
 
 #: src/js/pages/reseller/users/_components/resend-welcome-email-dialog.vue:6
-#, fuzzy
 msgid "Send To:"
 msgstr "Отправить:"
 
@@ -7291,7 +7272,6 @@ msgid "Sending Host"
 msgstr "Отправляющий хост"
 
 #: src/js/pages/user/email/usage/index.vue:97
-#, fuzzy
 msgid "Sending Script"
 msgstr "Сценарий отправки"
 
@@ -7306,8 +7286,9 @@ msgstr "Отправлено"
 #: src/js/pages/admin/users/index.vue:24 src/js/pages/reseller/stats.vue:216
 #: src/js/pages/reseller/users/_components/usage-table.vue:137
 #: src/js/pages/user/stats/index.vue:86
+#, fuzzy
 msgid "Sent E-mails"
-msgstr "Отправлено E-mail"
+msgstr "Отправка E-mails"
 
 #: src/js/pages/user/login-keys/create.vue:257
 #: src/js/pages/user/login-keys/modify.vue:236
@@ -7322,11 +7303,12 @@ msgid "September"
 msgstr "Сентябрь"
 
 #: src/js/pages/admin/multi-server.vue:128
+#, fuzzy
 msgid "server"
 msgid_plural "server"
-msgstr[0] "сервер"
-msgstr[1] "сервер"
-msgstr[2] "сервер"
+msgstr[0] "Сервер"
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/js/pages/reseller/users/create.vue:139
 #, fuzzy
@@ -7343,7 +7325,6 @@ msgstr "Информация о Сервере"
 
 #: src/js/modules/navigation/admin.js:55
 #: src/js/modules/navigation/reseller.js:40
-#, fuzzy
 msgid "Server Manager"
 msgstr "Менеджер сервера"
 
@@ -7383,22 +7364,18 @@ msgid "Service Monitor"
 msgstr "Мониторинг Сервисов"
 
 #: src/js/pages/admin/services.vue:154
-#, fuzzy
 msgid "Service was reloaded successfully"
 msgstr "Служба была перезагружена успешно"
 
 #: src/js/pages/admin/services.vue:146
-#, fuzzy
 msgid "Service was restarted successfully"
 msgstr "Служба была успешно запущена"
 
 #: src/js/pages/admin/services.vue:130
-#, fuzzy
 msgid "Service was started successfully"
 msgstr "Служба была успешно запущена"
 
 #: src/js/pages/admin/services.vue:138
-#, fuzzy
 msgid "Service was stopped successfully"
 msgstr "Служба была успешно остановлена"
 
@@ -7443,7 +7420,6 @@ msgid "Set Package to"
 msgstr "Установить Тарифный план "
 
 #: src/js/pages/admin/multi-server.vue:103
-#, fuzzy
 msgid "Set Password (optional)"
 msgstr "Установить пароль (необязательно)"
 
@@ -7468,8 +7444,9 @@ msgstr[1] "Установить выбранные домены для обще�
 msgstr[2] "Установить выбранные домены для общедоступного просмотра."
 
 #: src/js/pages/reseller/nameservers.vue:42
+#, fuzzy
 msgid "Set the Nameservers that will be assigned to new users"
-msgstr "Укажите неймсерверы (DNS) для новых пользователей"
+msgstr "Укажите сервера имен (DNS) для новых пользователей"
 
 #: src/js/pages/user/email/vacations/index.vue:20
 #, fuzzy
@@ -7492,6 +7469,7 @@ msgstr "Установить / обновить пользователя"
 #: src/js/pages/reseller/stats.vue:112 src/js/pages/reseller/stats.vue:21
 #: src/js/pages/reseller/users/_components/account-info.vue:4
 #: src/js/pages/reseller/users/_components/usage-table.vue:4
+#, fuzzy
 msgid "Setting"
 msgstr "Настройки"
 
@@ -7538,7 +7516,6 @@ msgid "Shell Access (SSH)"
 msgstr "Shell доступ (ssh)"
 
 #: src/js/pages/reseller/customize-skin/_components/category-editor.vue:25
-#, fuzzy
 msgid "Should be a valid image URL"
 msgstr "Должен быть действительный URL изображения"
 
@@ -7618,7 +7595,6 @@ msgstr "Показать сервисы"
 
 #: src/js/pages/user/email/usage/index.vue:13
 #: src/js/pages/user/email/usage/php-scripts.vue:12
-#, fuzzy
 msgid "Show Usage From:"
 msgstr "Показать использование:"
 
@@ -7670,8 +7646,9 @@ msgid "Site Redirects"
 msgstr "Перенаправления"
 
 #: src/js/modules/navigation/user.js:178
+#, fuzzy
 msgid "Site Summary / Statistics / Logs"
-msgstr "Сводка / Статистика / Логи"
+msgstr "Сводка сайта / Статистика / Логи"
 
 #: src/js/components/local/filemanager/files-table.vue:3
 #: src/js/pages/admin/file-editor.vue:12
@@ -7701,8 +7678,9 @@ msgid "Skin"
 msgstr "Скин"
 
 #: src/js/modules/navigation/reseller.js:75
+#, fuzzy
 msgid "Skin Manager"
-msgstr "Менеджер оформления"
+msgstr "Менеджер Оформления"
 
 #: src/js/pages/reseller/skins.vue:18
 #: src/js/pages/user/dashboard/_components/widgets/skins.vue:4
@@ -7749,14 +7727,12 @@ msgid "Skipped IPs / Users"
 msgstr "Пропущенные IP-адреса / пользователи"
 
 #: src/js/pages/admin/users/resellers/create.vue:97
-#, fuzzy
 msgid ""
 "Sorry, it seems that there are no reseller packages created yet. Would you "
 "like to create one?"
 msgstr "Извините, похоже, пока нет пакетов реселлеров. Вы хотите создать его?"
 
 #: src/js/pages/reseller/users/create.vue:86
-#, fuzzy
 msgid ""
 "Sorry, it seems that there are no user packages created yet. Would you like "
 "to create one?"
@@ -7765,11 +7741,11 @@ msgstr ""
 
 #: src/js/components/global/ui/ui-table.vue:294
 msgid "Sort this column ascending"
-msgstr "Сортировать колонку по возрастанию"
+msgstr "Сортировка по этой колонке по возрастанию"
 
 #: src/js/components/global/ui/ui-table.vue:292
 msgid "Sort this column descending"
-msgstr "Сортировать колонку по убыванию"
+msgstr "Сортировка по этой колонке по убыванию"
 
 #: src/js/pages/user/_components/create-domain-pointer-dialog.vue:13
 #, fuzzy
@@ -7912,12 +7888,12 @@ msgstr "Статистика"
 #: src/js/pages/user/login-keys/log.vue:20
 #: src/js/pages/user/messages/_tables/tickets.vue:10
 #: src/js/pages/user/system-info/_tables/services-info-table.vue:8
+#, fuzzy
 msgid "Status"
 msgstr "Статус"
 
 #: src/js/pages/reseller/_dialogs/view-ticket.vue:33
 #, fuzzy
-#| msgid "Status"
 msgid "Status:"
 msgstr "Статус"
 
@@ -8041,7 +8017,7 @@ msgstr "Имя поддомена"
 
 #: src/js/pages/user/subdomains/index.vue:89
 msgid "Subdomain name shouldn't contain special characters"
-msgstr "Имя поддомена не может содержать специальных символов"
+msgstr "Имя поддомена не должно содержать специальных символов"
 
 #: src/js/pages/user/subdomains/index.vue:81
 msgid "SubDomain:"
@@ -8058,7 +8034,6 @@ msgstr "Поддомены"
 
 #: src/js/pages/user/backup/index.vue:29
 #: src/js/pages/user/backup/restore.vue:31
-#, fuzzy
 msgid "Subdomains Lists: Backs up the list of subdomains for each domain"
 msgstr ""
 "Списки поддоменов: резервное копирование списка поддоменов для каждого домена"
@@ -8285,7 +8260,7 @@ msgstr "Diff шаблонов"
 
 #: src/js/pages/admin/custom-httpd/diff.vue:10
 msgid "Template Diff: %{ name }"
-msgstr "Шаблон Diff: %{ name }"
+msgstr "Шаблон Diff: %{name}"
 
 #: src/js/pages/admin/custom-httpd/view.vue:35
 #, fuzzy
@@ -8309,7 +8284,6 @@ msgid "Test your phone's code"
 msgstr "Проверьте код телефона"
 
 #: src/js/pages/user/email/spamassassin.vue:112
-#, fuzzy
 msgid "Text-only attachements are used for increased safety."
 msgstr "Для повышения безопасности используются только текстовые привязки."
 
@@ -8319,19 +8293,28 @@ msgid "Thaw"
 msgstr "Разморозить"
 
 #: src/js/pages/admin/ip-manager/details.vue:156
+#, fuzzy
+#| msgid ""
+#| "The \"Apply to existing Domains\" option will trigger the httpd.conf "
+#| "rewrites\n"
+#| "and insert A/AAAA records into the local dns zones.\n"
+#| "\n"
+#| "Disabling this checkbox won't touch the dns or httpd.conf files,\n"
+#| "but future httpd.cont rewrites will have the linked IP added."
 msgid ""
 "The \"Apply to existing Domains\" option will trigger the httpd.conf "
 "rewrites and insert A/AAAA records into the local dns zones. Disabling this "
 "checkbox won't touch the dns or httpd.conf files, but future httpd.cont "
 "rewrites will have the linked IP added."
 msgstr ""
-"Параметр \"Применить к существующим доменам\" инициирует перезапись httpd."
-"conf и вставляет записи A / AAAA в локальные зоны DNS. Отключение этого "
-"флажка не будет касаться файлов dns или httpd.conf, но в будущем при "
-"перезаписи httpd.cont будет добавлен связанный IP-адрес."
+"Параметр «Применить к существующим доменам» инициирует перезапись httpd."
+"conf\n"
+"и вставляет записи A / AAAA в локальные зоны DNS.\n"
+"\n"
+"Отключение этого флажка не будет касаться файлов dns или httpd.conf,\n"
+"но в будущем при перезаписи httpd.cont будет добавлен связанный IP-адрес."
 
 #: src/js/pages/user/login-keys/create.vue:182
-#, fuzzy
 msgid ""
 "The ALL_USER type commands are replaced with all commands the User is "
 "allowed, at that level."
@@ -8340,46 +8323,47 @@ msgstr ""
 "на этом уровне."
 
 #: src/js/pages/user/email/catch-all.vue:41
-#, fuzzy
 msgid "The e-mail is dropped and completely ignored"
 msgstr "Электронная почта отбрасывается и полностью игнорируется"
 
 #: src/js/pages/user/email/spamassassin.vue:186
-#, fuzzy
 msgid "The format is the same as the E-mail Blacklist"
 msgstr "Формат такой же, как и черный список электронной почты"
 
 #: src/js/pages/user/login-keys/index.vue:100
-#, fuzzy
 msgid "The login username used will still be your normal DA username."
 msgstr ""
 "Использованное имя пользователя входа будет по-прежнему являться вашим "
 "обычным именем пользователя."
 
 #: src/js/pages/user/login-keys/create.vue:180
-#, fuzzy
 msgid "The priorities for allow and deny are"
 msgstr "Приоритеты для разрешения и отказа"
 
 #: src/js/pages/user/email/catch-all.vue:24
 msgid "The sender is notified that the address doesn't exist"
-msgstr "Уведомлять отправителя о том, что адрес не существует"
+msgstr "Отправитель уведомляется о том, что адрес не существует"
 
 #: src/js/pages/user/email/spamassassin.vue:236
-#, fuzzy
 msgid "This button will remove data learned by spamassassin."
 msgstr "Эта кнопка удалит данные, полученные с помощью spamassassin."
 
 #: src/js/pages/user/email/catch-all.vue:12
+#, fuzzy
+#| msgid ""
+#| "This e-mail address will catch all improperly addressed mail\n"
+#| "(i.e. to a user that doesn't exist) to your site. This address\n"
+#| "may be your defaultusername@yourdomain.com, or any other POP3 account you "
+#| "have created."
 msgid ""
 "This e-mail address will catch all improperly addressed mail (i.e. to a user "
 "that doesn't exist) to your site. This address may be your "
 "defaultusername@yourdomain.com, or any other POP3 account you have created."
 msgstr ""
-"На этот адрес e-mail попадут все письма отправленные на неправильные адреса "
-"(т. е. пользователю, который не существует) на ваш сайт. Этим адресом может "
-"быть defaultusername@yourdomain.com или любая другая учетная запись POP3, "
-"которую вы создали."
+"Этот адрес электронной почты поймает все неправильно обработанные письма\n"
+"(т. е. пользователю, который не существует) на ваш сайт. Этот адрес\n"
+"может быть ваш defaultusername@yourdomain.com или любая другая учетная "
+"запись POP3, которую вы создали."
 
 #: src/js/pages/user/security-questions.vue:12
 #: src/js/pages/user/two-step-auth.vue:34
@@ -8390,10 +8374,10 @@ msgstr "Эта возможность не включена."
 #: src/js/pages/admin/_dialogs/root-auth-dialog.vue:18
 msgid "This file is tagged as secure. Root password required to edit"
 msgstr ""
-"Этот файл помечен как безопасный. Укажите root пароль, для редактирования"
+"Этот файл помечен как безопасный. Корневой пароль, необходимый для "
+"редактирования"
 
 #: src/js/pages/user/email/spamassassin.vue:182
-#, fuzzy
 msgid ""
 "This is the list of e-mail address that will be allowed through, regardless "
 "of content."
@@ -8402,19 +8386,25 @@ msgstr ""
 "содержимого."
 
 #: src/js/pages/user/email/spamassassin.vue:133
-#, fuzzy
 msgid "This is the list of e-mail address that will be blocked."
 msgstr "Это список адресов электронной почты, которые будут заблокированы."
 
 #: src/js/pages/user/email/catch-all.vue:28
+#, fuzzy
+#| msgid ""
+#| "This is the recommended option for the catch-all setting.\n"
+#| "Catch-all's will increase the server load due to spam,\n"
+#| "so having them disable is highly recommended unless you absolutely need "
+#| "the feature on."
 msgid ""
 "This is the recommended option for the catch-all setting. Catch-all's will "
 "increase the server load due to spam, so having them disable is highly "
 "recommended unless you absolutely need the feature on."
 msgstr ""
-"Это рекомендуемый параметр для настройки сборщика почты. Сборщик почты "
-"увеличивает нагрузку на сервер из-за спама, поэтому настоятельно "
-"рекомендуется отключать ее, кроме случаев когда вам очень нужна эта функция."
+"Это рекомендуемый параметр для настройки «все-поймать».\n"
+"Catch-all увеличит загрузку сервера из-за спама,\n"
+"поэтому настоятельно рекомендуется отключить их, если вам не нужна эта "
+"функция."
 
 #: src/js/pages/user/email/usage/index.vue:21
 #: src/js/pages/user/email/usage/php-scripts.vue:20
@@ -8423,7 +8413,6 @@ msgstr "Этот месяц"
 
 #: src/js/pages/user/email/usage/index.vue:18
 #: src/js/pages/user/email/usage/php-scripts.vue:17
-#, fuzzy
 msgid "This Month (excluding today)"
 msgstr "В этом месяце (за исключением сегодняшнего дня)"
 
@@ -8434,21 +8423,27 @@ msgid ""
 "The license will automatically update to the next time period when the key’s "
 "expiry nears."
 msgstr ""
-"Эта специальная лицензия - это лицензия, которая имеет срок окончания в "
-"более далеком будущем, чем установлено в физическом ключе.\n"
-"Лицензия автоматически обновится на следующий период времени, когда истечет "
-"срок действия ключа."
+"Эта порционная лицензия - это лицензия, которая имеет истинный срок действия "
+"в будущем в будущем, чем установлен в физическом ключе.\n"
+"Лицензия автоматически обновится до следующего периода времени, когда "
+"истечет срок действия ключа."
 
 #: src/js/pages/admin/license.vue:70
+#, fuzzy
+#| msgid ""
+#| "This Portioned License is a license that has a true expiry at a date "
+#| "further into the future than is set in the physical key.\n"
+#| "The license will automatically update to the next time period when the "
+#| "key’s expiry nears."
 msgid ""
 "This Portioned License is a license that has a true expiry at a date further "
 "into the future than is set in the physical key. The license will "
 "automatically update to the next time period when the key’s expiry nears."
 msgstr ""
-"Эта специальная лицензия - это лицензия, которая имеет срок окончания в "
-"более далеком будущем, чем установлено в физическом ключе. Лицензия "
-"автоматически обновится на следующий период времени, когда истечет срок "
-"действия ключа."
+"Эта порционная лицензия - это лицензия, которая имеет истинный срок действия "
+"в будущем в будущем, чем установлен в физическом ключе.\n"
+"Лицензия автоматически обновится до следующего периода времени, когда "
+"истечет срок действия ключа."
 
 #: src/js/pages/user/messages/_tables/tickets.vue:2
 #: src/js/pages/reseller/tickets.vue:53
@@ -8506,12 +8501,10 @@ msgstr "Сегодня"
 #: src/js/pages/admin/custom-httpd/view.vue:79
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:86
 #: src/js/pages/admin/custom-httpd/view.vue:83
-#, fuzzy
 msgid "Token"
 msgstr "знак"
 
 #: src/js/pages/admin/process-monitor.vue:47
-#, fuzzy
 msgid "Top:"
 msgstr "Верхний:"
 
@@ -8523,7 +8516,6 @@ msgstr "Всего"
 #: src/js/pages/user/stats/index.vue:46
 #: src/js/pages/reseller/users/_components/usage-table.vue:94
 #: src/js/pages/user/stats/index.vue:52
-#, fuzzy
 msgid "Total Disk Usage"
 msgstr "Общее использование диска"
 
@@ -8595,7 +8587,7 @@ msgstr "UID/GID"
 
 #: src/js/pages/admin/plugin-manager.vue:65
 msgid "Un-Install"
-msgstr "Деинсталировать"
+msgstr "Un-Установить"
 
 #: src/js/pages/admin/ip-manager/details.vue:101
 #: src/js/pages/admin/ip-manager/details.vue:207
@@ -8612,7 +8604,7 @@ msgstr[2] "Отсоединить IP-адреса"
 
 #: src/js/pages/admin/settings.vue:237
 msgid "unauthorized connections"
-msgstr "неавторизированные подключения"
+msgstr ""
 
 #: src/js/pages/admin/brute-force-monitor/block_list.vue:22
 #: src/js/pages/user/email/usage/blockcracking.vue:23
@@ -8721,8 +8713,10 @@ msgstr "Загрузить"
 
 #: src/js/pages/user/database/_dialogs/upload-backup-dialog.vue:3
 #: src/js/pages/user/database/index.vue:23
+#, fuzzy
+#| msgid "Download Backup"
 msgid "Upload Backup"
-msgstr "Загрузить бекап"
+msgstr "Скачать бекап"
 
 #: src/js/pages/user/filemanager/index.vue:23
 #: src/js/pages/user/filemanager/index.vue:59
@@ -8755,7 +8749,6 @@ msgid "URL"
 msgstr "Url"
 
 #: src/js/pages/reseller/customize-skin/_components/category-editor.vue:23
-#, fuzzy
 msgid "URL to image in JPG/PNG/SVG format"
 msgstr "URL-адрес изображения в формате JPG / PNG / SVG"
 
@@ -8773,7 +8766,7 @@ msgstr "URL-адрес изображения в формате JPG / PNG / SVG"
 #: src/js/pages/user/dashboard/_components/widgets/email-pop.vue:16
 #: src/js/pages/user/email/accounts/index.vue:45
 msgid "Usage"
-msgstr "Использование"
+msgstr "Применение"
 
 #: src/js/pages/user/subdomains/index.vue:57
 #, fuzzy
@@ -8793,26 +8786,22 @@ msgid "Usage Statistics for %{device}"
 msgstr "Статистика использования для %{device}"
 
 #: src/js/modules/widgets.js:25
-#, fuzzy
 msgid "Usage, logs and statistics"
 msgstr "Использование, журналы и статистика"
 
 #: src/js/pages/user/ssl/ca-cert.vue:22
-#, fuzzy
 msgid "Use a CA Cert"
 msgstr "Использовать сертификат CA"
 
 #: src/js/pages/user/domains/_components/private-html-dialog.vue:15
 msgid "Use a directory named private_html"
-msgstr "Использовать папку private_html"
+msgstr ""
 
 #: src/js/pages/user/domains/_components/private-html-dialog.vue:26
 msgid ""
 "Use a symbolink link from private_html to public_html - allows for same data "
 "in http and https"
 msgstr ""
-"Использовать символическую ссылку с private_html на public_html - позволяет "
-"показывать одинаковые данные по http и https"
 
 #: src/js/pages/user/email/spamassassin.vue:122
 #, fuzzy
@@ -8864,7 +8853,6 @@ msgid "Use the IP from the list"
 msgstr "Использовать IP со списка"
 
 #: src/js/pages/reseller/backups/restore.vue:90
-#, fuzzy
 msgid "Use the IP from the list:"
 msgstr "Используйте IP-адрес из списка:"
 
@@ -8888,7 +8876,6 @@ msgstr ""
 "MX и снимите этот флажок."
 
 #: src/js/components/global/app/app-mx-local-mail.vue:6
-#, fuzzy
 msgid ""
 "Use this server to handle my emails. If not, change the MX records and "
 "uncheck this option."
@@ -8937,7 +8924,7 @@ msgstr[2] "Пользователи"
 #: src/js/pages/admin/settings.vue:342
 #, fuzzy
 msgid "User can set limit per E-mail"
-msgstr "Пользователь может установить лимит на E-Mail"
+msgstr "Пользователь может устанавливать лимит на E-Mail"
 
 #: src/js/pages/admin/multi-server.vue:86
 msgid "User Check"
@@ -9018,7 +9005,7 @@ msgstr "Имя пользователя"
 
 #: src/js/pages/user/email/accounts/account.vue:17
 msgid "Username / Password"
-msgstr "Имя пользователя / Пароль"
+msgstr "Имя пользователя Пароль"
 
 #: src/js/pages/reseller/passwords.vue:21
 #: src/js/pages/user/database/_dialogs/change-db-user-pass-dialog.vue:6
@@ -9059,16 +9046,17 @@ msgid "Uses"
 msgstr "Использован"
 
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:43
+#, fuzzy
 msgid "Uses 2 IP's, domain uses one of them"
-msgstr "Используется 2 IP, домен использует один из них"
+msgstr "Использует 2 IP, домен испльзует один из них"
 
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:46
+#, fuzzy
 msgid "Uses 3 IP's, domain gets own IP"
-msgstr "Используется 3 IP, домен получает выделенный IP"
+msgstr "Использует 3 IP's, домен получает выделенный IP"
 
 #: src/js/pages/user/login-keys/create.vue:68
 #: src/js/pages/user/login-keys/modify.vue:54
-#, fuzzy
 msgid "Uses:"
 msgstr "Область применения:"
 
@@ -9133,7 +9121,7 @@ msgstr "Действительна после"
 #: src/js/pages/user/cronjobs/create.vue:33
 #: src/js/pages/user/cronjobs/index.vue:108
 msgid "Valid cron time values are the numbers indicated and *."
-msgstr "Правильное значение времени cron это цифры и *."
+msgstr ""
 
 #: src/js/pages/admin/license.vue:56
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:49
@@ -9142,6 +9130,10 @@ msgstr "Действительна до"
 
 #: src/js/pages/user/cronjobs/index.vue:80
 #, fuzzy
+#| msgid ""
+#| "Valid values are an E-mail address,\n"
+#| "your DA username: admin, or a blank field\n"
+#| "to prevent any e-mail."
 msgid ""
 "Valid values are an E-mail address, your DA username: admin, or a blank "
 "field to prevent any e-mail."
@@ -9183,12 +9175,10 @@ msgid "Version"
 msgstr "Версия"
 
 #: src/js/pages/user/stats/log.vue:1
-#, fuzzy
 msgid "Vew Log"
 msgstr "Vew Log"
 
 #: src/js/pages/user/subdomains/logs.vue:1
-#, fuzzy
 msgid "Vew Sub-Domain Log"
 msgstr "Vew поддоменный журнал"
 
@@ -9203,19 +9193,16 @@ msgstr "Просмотреть"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:3
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:30
-#, fuzzy
 msgid "View / Delete Blocked IPs"
 msgstr "Просмотр / удаление заблокированных IP-адресов"
 
 #: src/js/pages/user/filemanager/view.vue:9
-#, fuzzy
-#| msgid "View %{id}"
 msgid "View %{ path }"
-msgstr "Посмотреть %{id}"
+msgstr "Просмотреть %{ path }"
 
 #: src/js/pages/admin/mail-queue/view.vue:10
 msgid "View %{id}"
-msgstr "Посмотреть %{id}"
+msgstr "Просмотреть %{id}"
 
 #: src/js/pages/admin/custom-httpd/view.vue:62
 #: src/js/pages/admin/custom-httpd/view.vue:66
@@ -9242,9 +9229,8 @@ msgid "View Error Log"
 msgstr "Просмотр лога ошибок"
 
 #: src/js/pages/user/stats/log.vue:15
-#, fuzzy
 msgid "View Error Log for %{ domain }"
-msgstr "Просмотреть журнал ошибок для% {domain}"
+msgstr "Просмотреть журнал ошибок для %{domain}"
 
 #: src/js/pages/user/filemanager/view.vue:1
 msgid "View File"
@@ -9271,7 +9257,7 @@ msgstr "Просмотр лога: %{log}"
 
 #: src/js/pages/user/email/lists/view.vue:1
 msgid "View Mailing List"
-msgstr "Просмотр списки рассылки"
+msgstr "Просмотр списка рассылки"
 
 #: src/js/pages/user/dashboard/_components/dashboard-tab.vue:18
 msgid "View More"
@@ -9295,11 +9281,11 @@ msgstr "Просмотр реселлера"
 
 #: src/js/pages/admin/users/resellers/view.vue:11
 msgid "View Reseller: {{ user }}"
-msgstr "Просмотр реселлера: {{ user }}"
+msgstr "Просмотр реселлера: {{user}}"
 
 #: src/js/pages/user/stats/domain-statistics.vue:1
 msgid "View Statistic Reports"
-msgstr "Просмотр отчетов статистики"
+msgstr "Просмотр статистических отчетов"
 
 #: src/js/pages/user/subdomains/stats.vue:1
 msgid "View Sub-Domain Stats"
@@ -9320,9 +9306,8 @@ msgid "View Usage Log"
 msgstr "Просмотр журнала использования"
 
 #: src/js/pages/user/stats/log.vue:12
-#, fuzzy
 msgid "View Usage Log for %{ domain }"
-msgstr "Просмотреть журнал использования для% {domain}"
+msgstr "Просмотреть журнал использования для %{domain}"
 
 #: src/js/pages/reseller/users/view.vue:1
 #: src/js/pages/reseller/users/view.vue:12
@@ -9335,7 +9320,7 @@ msgstr "Виртуальный"
 
 #: src/js/pages/admin/settings.vue:182
 msgid "Warn Admin's at % of partition usage"
-msgstr "Предупреждать администратора при % использования раздела"
+msgstr "Предупреждать администратора в% от использования раздела"
 
 #: src/js/pages/user/stats/domain-statistics.vue:10
 #: src/js/pages/user/subdomains/stats.vue:11
@@ -9397,7 +9382,6 @@ msgid "When"
 msgstr "Когда"
 
 #: src/js/pages/admin/backups/restore.vue:112
-#, fuzzy
 msgid ""
 "When restoring a Reseller or Admin, if you select an IP from the list, that "
 "Reseller will only receive the single IP.\n"
@@ -9428,7 +9412,7 @@ msgstr "Какой доступ"
 #: src/js/pages/user/email/spamassassin.vue:191
 #: src/js/pages/user/email/spamassassin.vue:195
 msgid "Whitelisted E-mail"
-msgstr "Белый список e-mail"
+msgstr "Белый список адресов электронной почты"
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:3
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:2
@@ -9459,14 +9443,13 @@ msgstr "Написать"
 
 #: src/js/pages/admin/users/create-admin.vue:33
 msgid "Wrong e-mail format"
-msgstr "Неверный формат e-mail"
+msgstr "Неверный формат электронной почты"
 
 #: src/js/pages/admin/dns/add.vue:23
 msgid "Wrong format for a domain"
 msgstr "Неверный формат для домена"
 
 #: src/js/pages/admin/dns/add.vue:50 src/js/pages/admin/dns/add.vue:66
-#, fuzzy
 msgid "Wrong format for a nameserver"
 msgstr "Неверный формат для сервера имен"
 
@@ -9497,12 +9480,10 @@ msgid "Yes, block all spam scoring higher than:"
 msgstr "Да, блокировать весь спам с значением выше:"
 
 #: src/js/pages/user/email/spamassassin.vue:96
-#, fuzzy
 msgid "Yes, set the subject to the following:"
 msgstr "Да, установите для объекта следующее:"
 
 #: src/js/pages/user/dashboard/_components/add-widget-dialog.vue:12
-#, fuzzy
 msgid "You are about to add the following widgets to your dashboard:"
 msgstr "Вы собираетесь добавить следующие элементы в свою панель:"
 
@@ -9517,8 +9498,6 @@ msgid ""
 "1,5,11-15,30-59/2 (minutes 1, 5, 11 to 15 and every 2nd minute between 30 "
 "and 59)"
 msgstr ""
-"Вы можете комбинировать их чтобы создать более точное расписание, напр.: "
-"1,3,11-15,30-59/2 (минуты 1,5, 11 и 15 и каждые 2 минуты между 30 и 59)"
 
 #: src/js/pages/user/ssl/index.vue:78
 msgid "You can enable it here"
@@ -9530,8 +9509,6 @@ msgid ""
 "You can specifiy exact times using commas to separate them. eg: 1,2,3 "
 "(minutes 1,2 and 3)"
 msgstr ""
-"Вы можете указать точное время, используя запятые для разделения, напр.: "
-"1,2,3 (минуты 1,2 и 3)"
 
 #: src/js/pages/user/cronjobs/create.vue:36
 #: src/js/pages/user/cronjobs/index.vue:111
@@ -9539,21 +9516,21 @@ msgid ""
 "You can specify intervals using a star and a forward slash. eg: */2 (every "
 "2nd minute)"
 msgstr ""
-"Вы можете указать интервалы, используя звездочку и прямой слеш, напр.: */2 "
-"(каждые 2 минуты)"
 
 #: src/js/pages/user/cronjobs/create.vue:35
 #: src/js/pages/user/cronjobs/index.vue:110
 msgid "You can specify spans using a dash. eg: 5-7 (minutes 5 to 7)"
-msgstr "Вы можете указать разделители используя тире, напр.: 5-7 (5-7 минут)"
+msgstr ""
 
 #: src/js/modules/widgets.js:24
 msgid "Your Account"
 msgstr "Ваш аккаунт"
 
 #: src/js/pages/user/database/_dialogs/upload-backup-dialog.vue:22
+#, fuzzy
+#| msgid "Accounts and usage information"
 msgid "Your current login information"
-msgstr "Ваши текущие данные для входа"
+msgstr "Учетные записи и информация об использовании"
 
 #: src/js/pages/admin/services.vue:75
 msgid "Your Password:"
@@ -9567,19 +9544,17 @@ msgstr "Ноль - неограниченно"
 
 #: src/js/pages/user/email/accounts/create.vue:74
 msgid "Zero is unlimited. Blank will default to %{ limit }"
-msgstr "Ноль это неограниченно. Пусто значение это по умолчанию %{ limit }"
+msgstr ""
 
 #: src/js/pages/user/dns/security.vue:32
-#, fuzzy
 msgid "Zone keys are newer than the Zone Signing."
 msgstr "Клавиши зоны новее, чем зональная подпись."
 
 #: src/js/pages/admin/multi-server.vue:80
 msgid "Zone Transfer"
-msgstr "Трансфер зоны"
+msgstr "Передача зоны"
 
 #: src/js/pages/user/dns/security.vue:121
-#, fuzzy
 msgid "Zone-Signing Key"
 msgstr "Ключ для обозначения зоны"
 
@@ -9625,7 +9600,6 @@ msgstr "Ключ для обозначения зоны"
 #~ msgid "Notifications (%{count})"
 #~ msgstr "Уведомления (%{count})"
 
-#, fuzzy
 #~ msgid "Seen"
 #~ msgstr "Видели"
 
@@ -9638,7 +9612,6 @@ msgstr "Ключ для обозначения зоны"
 #~ msgid "Tickets Manage"
 #~ msgstr "Управление запросами"
 
-#, fuzzy
 #~ msgid ""
 #~ "Valid cron time values are the numbers indicated and *. <br>\n"
 #~ "You can specifiy exact times using commas to separate them. eg: 1,2,3 "
