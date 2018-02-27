@@ -5374,7 +5374,7 @@ msgstr "Перемещение Пользователей между Ресел�
 
 #: src/js/pages/admin/multi-server.vue:24
 msgid "Multi Server is currently turned OFF"
-msgstr "Мульти Сервер сейчас <strong>ОТКЛЮЧЕН</ strong>"
+msgstr "Мульти Сервер сейчас ОТКЛЮЧЕН"
 
 #: src/js/pages/admin/multi-server.vue:1 src/js/modules/navigation/admin.js:82
 msgid "Multi Server Setup"
