@@ -453,7 +453,7 @@ msgstr "Информация об аккаунте"
 #: src/js/modules/navigation/admin.js:6 src/js/modules/navigation/reseller.js:6
 #: src/js/modules/navigation/user.js:6
 msgid "Account Manager"
-msgstr "Аккаунт"
+msgstr "Аккаунты"
 
 #: src/js/pages/user/ftp-accounts/edit.vue:160
 msgid "Account modified"
@@ -3165,7 +3165,7 @@ msgstr "Дисковое пространство (МБ)"
 #: src/js/pages/user/dashboard/_components/widgets/list-users.vue:11
 #: src/js/pages/user/disk-usage.vue:27 src/js/pages/user/domains/index.vue:36
 msgid "Disk Usage"
-msgstr "Использование диска"
+msgstr "Место на диске"
 
 #: src/js/components/global/app/app-navigation-type-switch.vue:36
 msgid "Display as grid"
@@ -4803,7 +4803,7 @@ msgstr "Менеджер IP"
 #: src/js/pages/admin/users/index.vue:23
 #: src/js/pages/reseller/users/index.vue:30
 msgid "IP(s)"
-msgstr "IP-(ы)"
+msgstr "IP"
 
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:34
 #: src/js/pages/user/login-keys/index.vue:21
@@ -9541,7 +9541,7 @@ msgstr "Пользователь(и)"
 #: src/js/pages/reseller/users/index.vue:26
 #: src/js/pages/user/dashboard/_components/widgets/list-users.vue:9
 msgid "Username"
-msgstr "Имя пользователя"
+msgstr "Пользователь"
 
 #: src/js/pages/user/email/_components/modify-account-dialog.vue:96
 msgid ""
