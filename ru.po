@@ -162,7 +162,7 @@ msgstr "# IP адреса"
 #: src/js/pages/reseller/users/_components/usage-table.vue:114
 #: src/js/pages/user/stats/index.vue:88
 msgid "# of MySQL DBs"
-msgstr "# базы данных"
+msgstr "# MySQL БД"
 
 #: src/js/pages/admin/stats.vue:92
 msgid "# of Resellers"
@@ -1811,7 +1811,7 @@ msgstr "Изменить квоту"
 
 #: src/js/pages/reseller/users/_components/change-sent-emails-daily-limit-dialog.vue:3
 msgid "Change sent emails daily limit"
-msgstr "Изменить суточный лимит на отправку email"
+msgstr "Лимит отправки email в сутки"
 
 #: src/js/pages/reseller/users/modify.vue:26
 msgid "Change the User's IP"
@@ -3915,7 +3915,7 @@ msgstr "Внешний"
 #: src/js/modules/navigation/reseller.js:108
 #: src/js/modules/navigation/user.js:184
 msgid "Extra Features"
-msgstr "Доп. функции"
+msgstr "Инструменты"
 
 #: src/js/components/local/filemanager/dialogs/extract-file-dialog.vue:17
 #: src/js/components/local/filemanager/files-table.vue:187
@@ -7074,7 +7074,7 @@ msgstr "Статистика реселлера"
 
 #: src/js/modules/navigation/reseller.js:57
 msgid "Reseller Tools"
-msgstr "Утилиты реселлера"
+msgstr "Утилиты реселера"
 
 #: src/js/pages/admin/users/resellers/index.vue:1
 #: src/js/pages/user/dashboard/_components/widgets/admin-stats.vue:29
@@ -7140,11 +7140,11 @@ msgstr "Сбросить владельца"
 
 #: src/js/pages/reseller/edit-user-message.vue:12
 msgid "Reset to default"
-msgstr "Вернуть к первоначальным настройкам"
+msgstr "Сбросить настройки"
 
 #: src/js/pages/reseller/users/_components/change-sent-emails-daily-limit-dialog.vue:30
 msgid "Reset to defaults"
-msgstr "Вернуть к первоначальным настройкам"
+msgstr "Сбросить настройки"
 
 #: src/js/pages/reseller/users/view.vue:70
 msgid "Reset Today"
@@ -7760,9 +7760,8 @@ msgstr "Информация о Сервере"
 
 #: src/js/modules/navigation/admin.js:54
 #: src/js/modules/navigation/reseller.js:39
-#, fuzzy
 msgid "Server Manager"
-msgstr "Менеджер сервера"
+msgstr "Сервер менеджер"
 
 #: src/js/pages/user/ftp-accounts/index.vue:41
 msgid "Server Path"
@@ -7778,9 +7777,8 @@ msgstr "Статистика сервера"
 
 #: src/js/pages/admin/license.vue:130
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:121
-#, fuzzy
 msgid "Server Version"
-msgstr "Версия на сервере"
+msgstr "Версия сервера"
 
 #: src/js/pages/admin/settings.vue:128
 #, fuzzy
