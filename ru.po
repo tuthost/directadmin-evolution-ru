@@ -3480,9 +3480,8 @@ msgstr "Достигнут лимит E-mail аккаунтов"
 
 #: src/js/pages/user/backup/index.vue:37
 #: src/js/pages/user/backup/restore.vue:39
-#, fuzzy
 msgid "E-mail Accounts List for all domains (names and passwords)"
-msgstr "Список E-Mail аккаунтов для всех доменов(имена и пароли)"
+msgstr "Список E-Mail аккаунтов для всех доменов (имена и пароли)"
 
 #: src/js/pages/user/email/lists/view.vue:83
 msgid "E-mail Address:"
@@ -8032,7 +8031,7 @@ msgstr "Перенаправления сайта"
 
 #: src/js/modules/navigation/user.js:177
 msgid "Site Summary / Statistics / Logs"
-msgstr "Сводка / Статистика / Логи"
+msgstr "Статистика и логи"
 
 #: src/js/components/local/filemanager/files-table.vue:3
 #: src/js/pages/admin/file-editor.vue:12
@@ -9318,13 +9317,12 @@ msgstr ""
 "MX и снимите этот флажок."
 
 #: src/js/components/global/app/app-mx-local-mail.vue:6
-#, fuzzy
 msgid ""
 "Use this server to handle my emails. If not, change the MX records and "
 "uncheck this option."
 msgstr ""
-"Используйте этот сервер для обработки моих писем. Если нет, измените записи "
-"MX и снимите этот флажок."
+"Использовать этот сервер для обработки моих писем. Если нет, измените MX-"
+"записи и снимите этот флажок."
 
 #: src/js/pages/admin/stats.vue:230 src/js/pages/admin/stats.vue:237
 msgid "Used"
@@ -9515,13 +9513,11 @@ msgstr "Использование:"
 
 #: src/js/pages/user/email/vacations/index.vue:23
 #: src/js/pages/user/email/vacations/index.vue:28
-#, fuzzy
 msgid "Vacation Account"
-msgstr "Аккаунт сообщения об отсутствии"
+msgstr "Сообщение для аккаунта"
 
 #: src/js/pages/user/email/vacations/create.vue:12
 #: src/js/pages/user/email/vacations/modify.vue:12
-#, fuzzy
 msgid "Vacation Account:"
 msgstr "Сообщение для аккаунта:"
 
@@ -9553,11 +9549,10 @@ msgstr "Сообщения об отсутствии"
 
 #: src/js/pages/user/backup/index.vue:72
 #: src/js/pages/user/backup/restore.vue:74
-#, fuzzy
 msgid "Vacation Messages: Includes all vacation messages and times."
 msgstr ""
-"Сообщения о временном отсутствии.<br>Включает все сообщения о временном "
-"отсутствии и указание времен."
+"Сообщения об отсутствии. Включает все сообщения об отсутствии и указание "
+"времени."
 
 #: src/js/pages/user/email/vacations/create.vue:57
 #: src/js/pages/user/email/vacations/modify.vue:55
