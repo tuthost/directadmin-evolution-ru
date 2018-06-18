@@ -2347,7 +2347,7 @@ msgstr "Создать зону"
 
 #: src/js/modules/navigation/user.js:119
 msgid "Create/Restore Backups"
-msgstr "Резервное копирование"
+msgstr "Резервные копии"
 
 #: src/js/pages/user/dns/security.vue:56
 msgid "Created"
@@ -7093,7 +7093,7 @@ msgstr "Восстановить"
 #: src/js/pages/reseller/backups/restore.vue:1
 #: src/js/pages/user/backup/index.vue:13 src/js/pages/user/backup/restore.vue:1
 msgid "Restore Backup"
-msgstr "Ripristinare Backup"
+msgstr "Восстановить резервную копию"
 
 #: src/js/pages/user/backup/restore.vue:19
 msgid "Restore Options"
