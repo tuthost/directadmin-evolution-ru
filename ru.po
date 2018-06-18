@@ -50,10 +50,8 @@ msgid "./build rewrite_confs"
 msgstr "./build rewrite_confs"
 
 #: src/js/pages/reseller/users/view.vue:77
-#, fuzzy
-#| msgid "Hold (%{ count })"
 msgid "( Today: %{ sent } )"
-msgstr "Удержание (%{count})"
+msgstr "( Сегодня: %{ sent } )"
 
 #: src/js/pages/user/domains/add.vue:71 src/js/pages/user/domains/add.vue:81
 #: src/js/pages/user/domains/add.vue:91
@@ -70,10 +68,8 @@ msgid "{{ cpus.length }}"
 msgstr "{{ cpus.length }}"
 
 #: src/js/components/global/app/app-search.vue:58
-#, fuzzy
-#| msgid "{{ entry.name }}"
 msgid "{{ entry.label }}"
-msgstr "{{ entry.name }}"
+msgstr "{{ entry.label }}"
 
 #: src/js/pages/reseller/customize-skin/_components/category-draggable.vue:34
 #: src/js/pages/reseller/customize-skin/_components/menu-draggable.vue:55
@@ -193,10 +189,8 @@ msgid "% Disk Usage to create Backups."
 msgstr "% Использование диска создавать бекапы."
 
 #: src/js/pages/admin/settings.vue:208
-#, fuzzy
-#| msgid "Warn Admin's at % of partition usage"
 msgid "% of partition usage"
-msgstr "Предупреждать администратора при % использования раздела"
+msgstr "% использование раздела"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:15
 msgid "%{ filename } customization for %{ domain }"
@@ -925,13 +919,12 @@ msgid "Allow"
 msgstr "Разрешить"
 
 #: src/js/pages/admin/settings.vue:54
-#, fuzzy
 msgid ""
 "Allow a Reseller to Backup/Restore their Users.(Separate from User Backup/"
 "Restore)"
 msgstr ""
-"Разрешить Реселлеру выполнять Резервное копирование и Восстановление его "
-"пользователей. (Отдельно от пользовательского бекапа)"
+"Разрешить реселлеру делать резервные копии и восстановливать пользователей. "
+"(Отдельно от пользовательского бекапа)"
 
 #: src/js/pages/user/security-questions.vue:94
 #: src/js/pages/user/two-step-auth.vue:112
@@ -953,9 +946,8 @@ msgid "Allow Overselling"
 msgstr "Разрешить Оверселлинг"
 
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:65
-#, fuzzy
 msgid "Allow Reseller to create sites with server IP"
-msgstr "Разрешить Реселлеру создавать аккаунты на общем IP сервера"
+msgstr "Разрешить Реселлеру создавать аккаунты на серверном IP"
 
 #: src/js/pages/admin/settings.vue:101
 msgid "Allow Users with less than"
@@ -1164,12 +1156,10 @@ msgid "Are you sure you want to install “%{ name }” plugin?"
 msgstr "Вы действительно хотите установить плагин \"%{name}\"?"
 
 #: src/js/pages/admin/services.vue:73
-#, fuzzy
 msgid "Are you sure you want to reboot server?"
 msgstr "Вы действительно хотите перезагрузить сервер?"
 
 #: src/js/pages/admin/brute-force-monitor/skip_list.vue:46
-#, fuzzy
 msgid "Are you sure you want to remove selected elements from skip list?"
 msgstr ""
 "Вы действительно хотите удалить выбранные элементы из списка пропусков?"
@@ -1358,9 +1348,8 @@ msgstr "Достигнут лимит автоответчиков"
 
 #: src/js/pages/user/backup/index.vue:65
 #: src/js/pages/user/backup/restore.vue:67
-#, fuzzy
 msgid "Autoresponders: Includes all autoresponders and messages."
-msgstr "Автоответчики: Включает все автоответичики и сообщения."
+msgstr "Автоответчики: Включая все автоответчики и сообщения."
 
 #: src/js/pages/admin/stats.vue:230 src/js/pages/admin/stats.vue:238
 msgid "Available"
@@ -1506,19 +1495,16 @@ msgstr "Трафик и использование диска"
 
 #: src/js/pages/reseller/users/bandwidth.vue:1
 #: src/js/pages/user/bandwidth.vue:1
-#, fuzzy
 msgid "Bandwidth Breakdown"
-msgstr "Превышения трафика"
+msgstr "Превышение трафика"
 
 #: src/js/pages/user/bandwidth.vue:12
-#, fuzzy
 msgid "Bandwidth Breakdown for %{month} %{year}"
-msgstr "Пропуск полосы пропускания для {{getMonthName (месяц)}} {{year}}"
+msgstr "Превышение трафика за %{month} %{year}"
 
 #: src/js/pages/reseller/users/bandwidth.vue:12
-#, fuzzy
 msgid "Bandwidth Breakdown for %{user}: %{year} %{month}"
-msgstr "Пропуск полосы пропускания для {{getMonthName (месяц)}} {{year}}"
+msgstr "Превышение трафика за %{user}: %{year} %{month}"
 
 #: src/js/pages/admin/system-backup.vue:16
 #: src/js/pages/admin/system-backup.vue:20
@@ -1795,9 +1781,8 @@ msgid "Change the User's IP"
 msgstr "Изменить IP Пользователей"
 
 #: src/js/pages/reseller/users/create.vue:19
-#, fuzzy
 msgid "Change User Message"
-msgstr "Редактировать сообщение Пользователю"
+msgstr "Изменить сообщение пользователю"
 
 #: src/js/pages/user/password.vue:1
 msgid "Change your Password"
@@ -2478,7 +2463,6 @@ msgid "Custom Color %{index}"
 msgstr "Пользовательский цвет %{index}"
 
 #: src/js/pages/admin/system-backup.vue:78
-#, fuzzy
 msgid "Custom Directories & Files"
 msgstr "Пользовательские каталоги и файлы"
 
@@ -2499,7 +2483,6 @@ msgid "Custom Path"
 msgstr "Пользовательский путь"
 
 #: src/js/pages/user/email/spamassassin.vue:62
-#, fuzzy
 msgid "Custom Threshold"
 msgstr "Персональное значение"
 
@@ -2530,7 +2513,6 @@ msgid "Customize"
 msgstr "Настроить"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:1
-#, fuzzy
 msgid "Customize configuration"
 msgstr "Настройка конфигурации"
 
@@ -2544,9 +2526,8 @@ msgid "Customize Skin"
 msgstr "Настройка скина"
 
 #: src/js/pages/admin/settings.vue:405
-#, fuzzy
 msgid "Daily E-mail limit per DirectAdmin User"
-msgstr "Лимит Отправляемых Писем Пользователем в сутки"
+msgstr "Суточный лимит отправки писем на пользователя"
 
 #: src/js/pages/admin/settings.vue:414
 msgid "Daily limit per E-mail Account"
@@ -3220,14 +3201,12 @@ msgid "Do not use CAPS, www, or http:// in your domain name"
 msgstr "Не используйте CAPS, www или http: // в имени домена"
 
 #: src/js/pages/reseller/customize-skin/index.vue:82
-#, fuzzy
 msgid "Do you want to discard all of unsaved changes before leave?"
-msgstr "Вы хотите отменить все несохраненные изменения перед отъездом?"
+msgstr "Вы хотите отменить все несохраненные изменения перед выходом?"
 
 #: src/js/pages/user/email/spamassassin.vue:93
-#, fuzzy
 msgid "Do you wish to rewrite the subject of a spam e-mail?"
-msgstr "Вы хотите переписать тему спама по электронной почте?"
+msgstr "Вы хотите переписать тему спам письма?"
 
 #: src/js/pages/admin/settings.vue:196
 msgid "Document Root to Demo Skin"
@@ -3904,21 +3883,18 @@ msgstr "Ошибка:"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:3
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:9
-#, fuzzy
 msgid "Failed Logins"
-msgstr "Ошибочные Авторизации"
+msgstr "Неудачные авторизации"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:3
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:14
-#, fuzzy
 msgid "Failed Logins: IP list"
-msgstr "Неудачные логины: список IP-адресов"
+msgstr "Неудачные авторизации: список IP"
 
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:3
 #: src/js/pages/admin/brute-force-monitor/_components/tabs.vue:19
-#, fuzzy
 msgid "Failed logins: Usernames List"
-msgstr "Не удалось войти в систему: Список имен пользователей"
+msgstr "Неудачные авторизации: Список пользователей"
 
 #: src/js/pages/user/login-keys/create.vue:249
 #: src/js/pages/user/login-keys/modify.vue:226
@@ -4073,7 +4049,7 @@ msgstr "Для IPv6 IP-адресов, используйте /mask, напр.: 
 #: src/js/pages/user/dashboard/_components/widgets/mail-queue.vue:47
 #, fuzzy
 msgid "Force Load"
-msgstr "Исходный домен"
+msgstr "Force Load"
 
 #: src/js/pages/user/email/forwarders.vue:68
 msgid "forwarder"
@@ -4116,7 +4092,6 @@ msgid "Free"
 msgstr "Свободно"
 
 #: src/js/pages/user/ssl/index.vue:141
-#, fuzzy
 msgid "Free & automatic certificate from Let's Encrypt"
 msgstr "Бесплатный и автоматический сертификат от Let's Encrypt"
 
@@ -4280,7 +4255,6 @@ msgid "Grant"
 msgstr "Грант"
 
 #: src/js/pages/admin/log-viewer/view.vue:41
-#, fuzzy
 msgid "Grep"
 msgstr "Grep"
 
@@ -4361,9 +4335,8 @@ msgid "Hide Empty"
 msgstr "Скрыть пустые"
 
 #: src/js/pages/user/disk-usage.vue:20
-#, fuzzy
 msgid "Hide entries which are already included in the System Quotas"
-msgstr "Скрыть строки включенyые в системную квоту"
+msgstr "Скрыть записи, включенyые в системную квоту"
 
 #: src/js/pages/user/disk-usage.vue:17
 msgid "Hide entries which use 0 bytes"
@@ -4476,7 +4449,6 @@ msgid "id_dsa.pub for scp (~/user/.ssh/authorized_keys2)"
 msgstr "id_dsa.pub для scp (~/user/.ssh/authorized_keys2)"
 
 #: src/js/pages/user/login-keys/create.vue:178
-#, fuzzy
 msgid "If no commands are checked (allow and deny), all commands are allowed."
 msgstr ""
 "Если команды не отмечены (разрешить и запретить), все команды разрешены."
@@ -4567,7 +4539,6 @@ msgid "Info"
 msgstr "Информация"
 
 #: src/js/pages/user/email/lists/modify.vue:116
-#, fuzzy
 msgid "Info Access"
 msgstr "Информация о доступе"
 
@@ -5168,14 +5139,12 @@ msgid "Login Failures"
 msgstr "Неудачные логины"
 
 #: src/js/pages/admin/settings.vue:332
-#, fuzzy
 msgid "login failures from any IP."
-msgstr "неудачи входа из любого IP-адреса."
+msgstr "ошибки входа с любого IP."
 
 #: src/js/pages/admin/settings.vue:319
-#, fuzzy
 msgid "login failures on any account."
-msgstr "ошибки входа в любой учетной записи."
+msgstr "ошибки входа на любом аккаунте."
 
 #: src/js/pages/user/login-history.vue:1
 #: src/js/components/global/app/app-user-bar.vue:81
@@ -5481,9 +5450,8 @@ msgid "Message All Users"
 msgstr "Сообщение всем пользователям"
 
 #: src/js/pages/user/email/lists/modify.vue:298
-#, fuzzy
 msgid "Message Footer"
-msgstr "Низ Сообщения"
+msgstr "Футер сообщения"
 
 #: src/js/pages/user/email/lists/modify.vue:307
 msgid "Message Fronter"
@@ -5675,9 +5643,8 @@ msgid "Modify Vacation Message"
 msgstr "Изменить сообщение автоответчика"
 
 #: src/js/pages/reseller/users/index.vue:109
-#, fuzzy
 msgid "Modify your own user data"
-msgstr "Изменить Ваши пользовательские данные"
+msgstr "Изменить данные вашего пользователя"
 
 #: src/js/modules/widgets.js:75
 msgid "Monitor all services"
@@ -6032,13 +5999,11 @@ msgid "Notify Admins after an IP has"
 msgstr "Уведомлять админов после того как IP"
 
 #: src/js/pages/admin/settings.vue:33
-#, fuzzy
 msgid ""
 "Notify all admins whenever a service goes down using the messaging/ticket "
 "system."
 msgstr ""
-"Уведомлять всех Администраторов при падении сервисов используя систему "
-"сообщений."
+"Уведомлять всех Администраторов при падении сервисов через систему запросов."
 
 #: src/js/pages/user/security-questions.vue:101
 msgid ""
@@ -6107,10 +6072,8 @@ msgstr "Количество строк для показа"
 
 #: src/js/pages/user/login-keys/create.vue:74
 #: src/js/pages/user/login-keys/modify.vue:60
-#, fuzzy
 msgid "Number of requests allowed with this key. 0=Unlimited"
-msgstr ""
-"Количество запросов, разрешенных с помощью этого ключа. 0 = не ограничено"
+msgstr "Количество запросов, разрешенных с этим ключем. 0 = не ограничено"
 
 #: src/js/pages/user/database/index.vue:35
 #: src/js/pages/user/database/index.vue:41
@@ -6655,9 +6618,8 @@ msgid "Protected Directories"
 msgstr "Защищенные папки"
 
 #: src/js/components/local/filemanager/dialogs/protect-directory-dialog.vue:16
-#, fuzzy
 msgid "Protected Directory Prompt"
-msgstr "Защищенная справочная система"
+msgstr "Сообщение защищенной папки"
 
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:83
 msgid "Public"
@@ -6689,9 +6651,8 @@ msgid "Purge Folder"
 msgstr "Очистить папку"
 
 #: src/js/pages/user/email/lists/modify.vue:203
-#, fuzzy
 msgid "Purge Received"
-msgstr "Поступила очистка"
+msgstr "Очистка полученных"
 
 #: src/js/pages/admin/settings.vue:457
 #, fuzzy
@@ -6722,8 +6683,6 @@ msgid "Quota can't be larger than 100TB"
 msgstr "Лимит не может быть больше, чем 100TB"
 
 #: src/js/pages/admin/ip-manager/_dialogs/add-ip-dialog.vue:25
-#, fuzzy
-#| msgid "End date should be greater than start date"
 msgid "Range end should be larger than start"
 msgstr "Дата окончания должна быть больше, чем дата начала"
 
@@ -7105,13 +7064,11 @@ msgstr ""
 
 #: src/js/pages/user/email/autoresponders/create.vue:16
 #: src/js/pages/user/email/autoresponders/modify.vue:12
-#, fuzzy
 msgid "Responder Address:"
 msgstr "Адрес автоответчика:"
 
 #: src/js/pages/user/email/autoresponders/create.vue:29
 #: src/js/pages/user/email/autoresponders/modify.vue:25
-#, fuzzy
 msgid "Responder Message:"
 msgstr "Сообщение автоответчика:"
 
@@ -7180,7 +7137,6 @@ msgid "Route"
 msgstr "Путь"
 
 #: src/js/pages/user/cronjobs/create.vue:13
-#, fuzzy
 msgid "Run on @reboot"
 msgstr "Запустить при @reboot"
 
@@ -7313,22 +7269,19 @@ msgstr "Расписание резервного копирования"
 
 #: src/js/pages/user/two-step-auth.vue:145
 #: src/js/pages/user/two-step-auth.vue:148
-#, fuzzy
 msgid "Scratch Code"
 msgstr "Scratch код"
 
 #: src/js/pages/user/two-step-auth.vue:134
-#, fuzzy
 msgid "Scratch Codes"
-msgstr "Запасные коды"
+msgstr "Scratch коды"
 
 #: src/js/pages/user/two-step-auth.vue:175
-#, fuzzy
 msgid ""
 "Scratch Codes are one-time use codes in case you don't have your phone, so "
 "keep them safe."
 msgstr ""
-"Коды Scratch - это коды единовременного использования, если у вас нет "
+"Scratch коды - это коды одноразового использования, на случай если у вас нет "
 "телефона, поэтому храните их в безопасности."
 
 #: src/js/pages/user/filemanager/index.vue:67
@@ -7469,7 +7422,6 @@ msgid "Select IP address used for restore."
 msgstr "Выберите IP-адрес, используемый для восстановления."
 
 #: src/js/pages/user/domains/_components/add-ip-to-domain-dialog.vue:8
-#, fuzzy
 msgid "Select IP to Add"
 msgstr "Выбрать IP для добавления"
 
@@ -7479,9 +7431,8 @@ msgid "Select IP to filter results"
 msgstr "Выберите IP для фильтрации результатов"
 
 #: src/js/pages/user/backup/index.vue:17
-#, fuzzy
 msgid "Select Items to include in Backup"
-msgstr "Выберите элементы которые будут включены в Резервную копию"
+msgstr "Выберите элементы для добавления в Резервную копию"
 
 #: src/js/pages/admin/users/move.vue:42
 msgid "Select Reseller"
@@ -7492,9 +7443,8 @@ msgid "Select row"
 msgstr "Выберите строку"
 
 #: src/js/pages/user/domains/_components/rename-domain-dialog.vue:13
-#, fuzzy
 msgid "Select the domain to change and enter it's new value"
-msgstr "Выберите доменное имя для изменения и ввода нового имени"
+msgstr "Выберите домен для изменения и введите его новое значение"
 
 #: src/js/pages/admin/users/move.vue:15
 msgid "Select the Users of"
@@ -7564,7 +7514,6 @@ msgstr "Выбранные пользователи:"
 #: src/js/pages/user/email/autoresponders/create.vue:46
 #: src/js/pages/user/email/autoresponders/create.vue:65
 #: src/js/pages/user/email/autoresponders/modify.vue:36
-#, fuzzy
 msgid "Send a CC to:"
 msgstr "Отправить копию CC на:"
 
@@ -7581,9 +7530,8 @@ msgstr "Отправить сообщение"
 
 #: src/js/pages/admin/backups/_components/backup-restore-settings-dialog.vue:7
 #: src/js/pages/reseller/backups/_components/settings-dialog.vue:7
-#, fuzzy
 msgid "Send a message when a backup has finished."
-msgstr "Отправить сообщение после выполнения операции Резервного копирования."
+msgstr "Отправить сообщение после завершения Резервного копирования."
 
 #: src/js/pages/user/cronjobs/index.vue:63
 msgid "Send all cron output to e-mail"
@@ -7598,7 +7546,7 @@ msgstr "Количество отправок"
 #: src/js/pages/admin/users/resellers/create.vue:123
 #: src/js/pages/reseller/users/create.vue:114
 msgid "Send E-mail Notification"
-msgstr "Отправить уведомление по E-mail "
+msgstr "Отправить уведомление по E-mail"
 
 #: src/js/pages/user/email/_components/modify-account-quota-dialog.vue:43
 #: src/js/pages/user/email/accounts/create.vue:79
@@ -7614,9 +7562,8 @@ msgid "Send to spambox"
 msgstr "Отправить в спам-ящик"
 
 #: src/js/pages/reseller/users/_components/resend-welcome-email-dialog.vue:6
-#, fuzzy
 msgid "Send To:"
-msgstr "Отправить:"
+msgstr "Отправить к:"
 
 #: src/js/pages/admin/mail-queue/index.vue:23
 #: src/js/pages/user/dashboard/_components/widgets/mail-queue.vue:4
@@ -7635,9 +7582,8 @@ msgid "Sending Host"
 msgstr "Отправляющий хост"
 
 #: src/js/pages/user/email/usage/index.vue:97
-#, fuzzy
 msgid "Sending Script"
-msgstr "Сценарий отправки"
+msgstr "Скрипт отправки"
 
 #: src/js/pages/user/email/accounts/index.vue:36
 #, fuzzy
@@ -7729,7 +7675,7 @@ msgstr "Мониторинг Сервисов"
 
 #: src/js/pages/admin/services.vue:154
 msgid "Service was reloaded successfully"
-msgstr "Служба была успешно перезагружена "
+msgstr "Служба была успешно перезагружена"
 
 #: src/js/pages/admin/services.vue:146
 msgid "Service was restarted successfully"
@@ -8391,15 +8337,12 @@ msgstr "Полоса"
 #: src/js/components/local/user-package.vue:142
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:184
 #: src/js/pages/admin/users/resellers/modify.vue:158
-#, fuzzy
 msgid "Sub-Domains"
 msgstr "Поддомены"
 
 #: src/js/pages/user/subdomains/index.vue:19
-#, fuzzy
-#| msgid "Sub-Domains Setup"
 msgid "Sub-Domains Limit Reached"
-msgstr "Настройка поддоменов"
+msgstr "Достигнут лимит поддоменов"
 
 #: src/js/pages/user/subdomains/index.vue:1
 msgid "Sub-Domains Setup"
@@ -8420,7 +8363,6 @@ msgid "Subdomain Lists"
 msgstr "Список поддоменов"
 
 #: src/js/modules/navigation/user.js:18
-#, fuzzy
 msgid "Subdomain Management"
 msgstr "Управление поддоменами"
 
@@ -8440,9 +8382,8 @@ msgstr ""
 "символов Unicode в ASCII."
 
 #: src/js/pages/user/subdomains/index.vue:142
-#, fuzzy
 msgid "Subdomain name punycoded"
-msgstr "Управление поддоменами"
+msgstr "Поддомен преобразован в punycode"
 
 #: src/js/pages/user/subdomains/index.vue:93
 msgid "Subdomain name shouldn't contain special characters"
@@ -8836,9 +8777,8 @@ msgstr "Этот месяц"
 
 #: src/js/pages/user/email/usage/index.vue:18
 #: src/js/pages/user/email/usage/php-scripts.vue:17
-#, fuzzy
 msgid "This Month (excluding today)"
-msgstr "В этом месяце (за исключением сегодняшнего дня)"
+msgstr "Этот месяц (кроме сегодняшнего дня)"
 
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:63
 msgid ""
@@ -8889,9 +8829,8 @@ msgid "Time"
 msgstr "Время"
 
 #: src/js/pages/admin/settings.vue:287
-#, fuzzy
 msgid "Time before failed login count resets"
-msgstr "Счетчик авторизаций очищается после"
+msgstr "Время перед сбросом счетчика ошибок входа"
 
 #: src/js/components/global/app/app-skin-options.vue:22
 msgid "Time Format"
@@ -8964,7 +8903,6 @@ msgid "Transmitted"
 msgstr "Отправлено"
 
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:68
-#, fuzzy
 msgid "Trigger"
 msgstr "Тригер"
 
@@ -9029,7 +8967,6 @@ msgstr "Деинсталировать"
 #: src/js/pages/admin/ip-manager/_dialogs/unlink-ip-dialog.vue:33
 #: src/js/pages/admin/ip-manager/details.vue:44
 #: src/js/pages/admin/ip-manager/details.vue:56
-#, fuzzy
 msgid "Un-Link"
 msgstr "Отвязать"
 
@@ -9104,7 +9041,6 @@ msgstr "Отменить изменения"
 #: src/js/pages/reseller/stats.vue:96
 #: src/js/pages/reseller/users/_components/usage-table.vue:37
 #: src/js/pages/user/email/accounts/index.vue:248
-#, fuzzy
 msgid "Unlimited"
 msgstr "Неограничено"
 
@@ -9304,7 +9240,6 @@ msgid "Use the IP stored in the backup"
 msgstr "Использовать IP указанный в резервной копии"
 
 #: src/js/pages/user/ssl/index.vue:131
-#, fuzzy
 msgid "Use the server's certificate"
 msgstr "Использовать сертификаты сервера"
 
@@ -9453,10 +9388,8 @@ msgstr ""
 "символов Unicode в ASCII."
 
 #: src/js/pages/user/email/_components/modify-account-dialog.vue:95
-#, fuzzy
-#| msgid "Username"
 msgid "Username punycoded"
-msgstr "Имя пользователя"
+msgstr "Имя пользователя преобразовано в punycode"
 
 #: src/js/pages/reseller/passwords.vue:21
 #: src/js/pages/user/database/_dialogs/change-db-user-pass-dialog.vue:6
@@ -9775,10 +9708,8 @@ msgid "Virtual"
 msgstr "Виртуальный"
 
 #: src/js/pages/admin/settings.vue:207
-#, fuzzy
-#| msgid "Admin Stats"
 msgid "Warn Admin's at"
-msgstr "Статистика Админа"
+msgstr "Предупреждать Админа при"
 
 #: src/js/pages/admin/backups/_components/monitor-backup-status-dialog.vue:71
 msgid ""
@@ -9930,10 +9861,8 @@ msgid "Wrong IP format"
 msgstr "Неверный формат IP"
 
 #: src/js/pages/user/ftp-accounts/create.vue:40
-#, fuzzy
-#| msgid "Wrong e-mail format"
 msgid "Wrong username format"
-msgstr "Неверный формат e-mail"
+msgstr "Неверный формат имени пользователя"
 
 #: src/js/components/local/history/chart.vue:4
 msgid "Year:"
@@ -9963,9 +9892,8 @@ msgid "Yes, set the subject to the following:"
 msgstr "Да, установите для объекта следующее:"
 
 #: src/js/pages/user/dashboard/_components/add-widget-dialog.vue:12
-#, fuzzy
 msgid "You are about to add the following widgets to your dashboard:"
-msgstr "Вы собираетесь добавить следующие элементы в свою панель:"
+msgstr "Вы собираетесь добавить следующие элементы на панель:"
 
 #: src/js/components/global/app/app-breadcrumbs.vue:4
 msgid "You are here:"
@@ -10036,18 +9964,16 @@ msgid "Your Password:"
 msgstr "Ваш пароль:"
 
 #: src/js/pages/user/dns/security.vue:43
-#, fuzzy
 msgid "Zone keys are newer than the Zone Signing."
-msgstr "Клавиши зоны новее, чем зональная подпись."
+msgstr "Ключи зоны новее, чем подпись зоны."
 
 #: src/js/pages/admin/multi-server.vue:80
 msgid "Zone Transfer"
 msgstr "Трансфер зоны"
 
 #: src/js/pages/user/dns/security.vue:132
-#, fuzzy
 msgid "Zone-Signing Key"
-msgstr "Ключ для обозначения зоны"
+msgstr "Ключ для подписи зоны"
 
 #~ msgid "{{ passwdError }}"
 #~ msgstr "{{ passwdError }}"
