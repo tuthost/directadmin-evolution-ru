@@ -7300,7 +7300,7 @@ msgstr "Запустить при @reboot"
 
 #: src/js/pages/admin/system-backup.vue:12
 msgid "Run System Backup right now"
-msgstr "Запустить резервное копирование системы сейчас"
+msgstr "Запустить бекап системы сейчас"
 
 #: src/js/pages/admin/services.vue:33
 #: src/js/pages/user/system-info/_tables/services-info-table.vue:21
