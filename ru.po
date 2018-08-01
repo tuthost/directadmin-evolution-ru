@@ -4688,7 +4688,7 @@ msgstr "Внутренний"
 
 #: src/js/pages/user/email/lists/modify.vue:126
 msgid "Intro Access"
-msgstr "Информация о доступе"
+msgstr "Доступ к введению"
 
 #: src/js/components/local/filemanager/dialogs/copy-file-dialog.vue:32
 msgid "Invalid filename"
