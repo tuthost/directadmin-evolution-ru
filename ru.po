@@ -3860,7 +3860,7 @@ msgstr "Событие"
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:98
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:59
 msgid "Execute"
-msgstr "Выполнить"
+msgstr "Выполнение"
 
 #: src/js/components/local/filemanager/tree-view-item.vue:12
 msgid "Expand"
@@ -6824,7 +6824,7 @@ msgstr "Повторно подпишите вашу зону"
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:61
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:86
 msgid "Read"
-msgstr "Читать"
+msgstr "Чтение"
 
 #: src/js/components/local/suspend-user-dialog.vue:7
 msgid "Reason"
@@ -10054,7 +10054,7 @@ msgstr "Вы желаете удалять спам с большим значе
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:67
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:92
 msgid "Write"
-msgstr "Написать"
+msgstr "Запись"
 
 #: src/js/pages/admin/dns/add.vue:23
 msgid "Wrong format for a domain"
