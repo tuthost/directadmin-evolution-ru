@@ -5389,7 +5389,7 @@ msgstr "Управление запросами"
 #: src/js/pages/reseller/backups/index.vue:1
 #: src/js/modules/navigation/reseller.js:64
 msgid "Manage User Backups"
-msgstr "Управление резервными копиями пользователей"
+msgstr "Управление бекапами пользователей"
 
 #: src/js/pages/reseller/user-packages/index.vue:1
 #: src/js/modules/navigation/reseller.js:23
@@ -6478,7 +6478,7 @@ msgstr "Perl модули"
 #: src/js/components/local/filemanager/files-table.vue:3
 #: src/js/components/local/filemanager/files-table.vue:18
 msgid "Perm."
-msgstr "Дост."
+msgstr "Доступ"
 
 #: src/js/components/local/filemanager/dialogs/set-permissions-dialog.vue:23
 msgid "Permissions"
@@ -7240,7 +7240,7 @@ msgstr "Восстановить"
 #: src/js/pages/reseller/backups/restore.vue:1
 #: src/js/pages/user/backup/index.vue:13 src/js/pages/user/backup/restore.vue:1
 msgid "Restore Backup"
-msgstr "Восстановить резервную копию"
+msgstr "Восстановить бекап"
 
 #: src/js/pages/user/backup/restore.vue:19
 msgid "Restore Options"
@@ -7422,7 +7422,7 @@ msgstr "Запланировать"
 #: src/js/pages/reseller/backups/index.vue:13
 #: src/js/pages/reseller/backups/schedule.vue:1
 msgid "Schedule Backup"
-msgstr "Расписание резервного копирования"
+msgstr "Расписание бекапов"
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:90
 #: src/js/pages/reseller/backups/index.vue:97
