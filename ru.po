@@ -2071,7 +2071,7 @@ msgstr "Сжатие файлов"
 
 #: src/js/components/local/r-table/r-table-buttons-before.vue:62
 msgid "Condensed"
-msgstr "Концентрированный"
+msgstr "Компактный"
 
 #: src/js/pages/admin/custom-httpd/index.vue:46
 #: src/js/pages/admin/custom-httpd/index.vue:59
@@ -3868,7 +3868,7 @@ msgstr "Расширить"
 
 #: src/js/components/local/r-table/r-table-buttons-before.vue:64
 msgid "Expanded"
-msgstr "Расширенный"
+msgstr "Просторный"
 
 #: src/js/pages/user/two-step-auth.vue:146
 #: src/js/pages/user/two-step-auth.vue:151
