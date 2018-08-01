@@ -10191,11 +10191,11 @@ msgstr "Ключ для подписи зоны"
 # ### Lang-specific vars
 # DateTime format
 msgid "format:datetime"
-msgstr "format:datetime"
+msgstr "DD.MM.YYYY, HH:mm:ss"
 
 # Date format
 msgid "format:date"
-msgstr "format:date"
+msgstr "DD.MM.YYYY"
 
 #~ msgid "{{ cpus.length }}"
 #~ msgstr "{{ cpus.length }}"
