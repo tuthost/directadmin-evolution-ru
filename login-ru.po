@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: src/js/login/Login.vue:30
+msgid "← Back to the login page"
+msgstr "← Вернуться на страницу входа"
+
+#: src/js/login/components/remind-password-auth.vue:46
+#: src/js/login/components/two-step-auth.vue:29
+msgid "Authenticate"
+msgstr "Авторизация"
+
+#: src/js/login/Login.vue:22
+msgid "Click Here"
+msgstr "Нажмите тут"
+
+#: src/js/login/components/login-datetime.vue:3
+msgid "Computer or server time out of sync by %{ hours } hours."
+msgstr ""
+"Время синхронизации компьютера или сервера не синхронизировано %{ hours } "
+"часов."
+
+#: src/js/login/components/remind-password-auth.vue:4
+msgid ""
+"Enter your Username and a confirmation link will be sent to your email "
+"account."
+msgstr ""
+"Введите имя пользователя и ссылка подтверждения будет отправлена на ваш "
+"почтовый ящик."
+
+#: src/js/login/Login.vue:17
+msgid "Forgot Password?"
+msgstr "Забыли пароль?"
+
+#: src/js/login/components/standard-auth.vue:20
+msgid "Hmm, that's not the right login details. Please try again."
+msgstr ""
+"Хм, это не правильные данные для входа. Пожалуйста, попробуйте еще раз."
+
+#: src/js/login/components/remind-password-auth.vue:20
+msgid ""
+"If the username entered is correct, you will receive a confirmation email "
+"shortly."
+msgstr ""
+"Если введенное имя пользователя правильно, вы получите подтверждение по "
+"электронной почте в ближайшее время."
+
+#: src/js/login/components/language-selector.vue:7
+msgid "Language"
+msgstr "Язык"
+
+#: src/js/login/components/remind-password-auth.vue:23
+msgid "Log In using your username and code from E-mail"
+msgstr ""
+"Войдите в систему, используя свое имя пользователя и код из электронной "
+"почты"
+
+#: src/js/login/components/auth-successful-message.vue:2
+msgid "Logged in..."
+msgstr "Вхожу..."
+
+#: src/js/login/components/login-header.vue:6
+msgid "Manage your domains, databases & other server info."
+msgstr "Управляйте доменами, базами данных и другими настройками сервера."
+
+#: src/js/login/components/standard-auth.vue:11
+msgid "Password"
+msgstr "Пароль"
+
+#: src/js/login/components/standard-auth.vue:3
+msgid "Please enter username"
+msgstr "Пожалуйста введите имя пользователя"
+
+#: src/js/login/components/remind-password-auth.vue:15
+msgid "Send me a Link"
+msgstr "Пришлите мне ссылку"
+
+#: src/js/login/components/standard-auth.vue:26
+msgid "Sign In to Account"
+msgstr "Вход в аккаунт"
+
+#: src/js/login/components/login-header.vue:3
+msgid "Start DirectAdmin"
+msgstr "Панель DirectAdmin"
+
+#: src/js/login/components/security-question-auth.vue:13
+msgid "Submit Answer"
+msgstr "Отправить ответ"
+
+#: src/js/login/components/two-step-auth.vue:16
+msgid "Trust this device for %{ days } days"
+msgstr "Доверять этому устройству %{ days }  дней"
+
+#: src/js/login/components/two-step-auth.vue:3
+msgid "Two Step Authentication"
+msgstr "Двухэтапная аутентификация"
+
+#: src/js/login/components/remind-password-auth.vue:26
+msgid "Username"
+msgstr "Пользователь"
