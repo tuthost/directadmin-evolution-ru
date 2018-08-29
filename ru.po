@@ -209,7 +209,7 @@ msgstr "%{ limit } / День"
 msgid "%{ log } is %{ size }"
 msgstr "%{ log } - %{ размер }"
 
-#: src/js/components/global/App.vue:158
+#: src/js/components/global/App.vue:166
 msgid "%{ n } new ticket created"
 msgid_plural "%{ n } new tickets created"
 msgstr[0] "%{ n } новый запрос создан"
@@ -437,7 +437,7 @@ msgstr[0] "Принимаемый тип:"
 msgstr[1] "Принимаемые типы"
 msgstr[2] "Принимаемые типы"
 
-#: src/js/pages/user/database/view.vue:125
+#: src/js/pages/user/database/view.vue:104
 msgid "access host"
 msgid_plural "access hosts"
 msgstr[0] "хост доступа"
@@ -445,8 +445,7 @@ msgstr[1] "хосты доступа"
 msgstr[2] "хосты доступа"
 
 #: src/js/pages/user/database/view.vue:62
-#: src/js/pages/user/database/view.vue:81
-#: src/js/pages/user/database/view.vue:97
+#: src/js/pages/user/database/view.vue:76
 #: src/js/pages/user/database/view.vue:65
 msgid "Access Host"
 msgstr "Хост доступа"
@@ -635,14 +634,10 @@ msgid "Add MimeType"
 msgstr "Добавить Mime-тип"
 
 #: src/js/pages/user/dashboard/_components/widgets/additional-domains.vue:52
+#: src/js/pages/user/database/view.vue:87
 #: src/js/pages/user/domains/index.vue:25
 msgid "Add New"
 msgstr "Добавить новый"
-
-#: src/js/pages/user/database/view.vue:108
-#: src/js/pages/user/database/view.vue:90
-msgid "Add New Access Host"
-msgstr "Добавить новый хост доступа"
 
 #: src/js/pages/user/handlers/index.vue:49
 msgid "Add New Apache Handler"
@@ -812,6 +807,7 @@ msgstr[0] "админ"
 msgstr[1] "админы"
 msgstr[2] "админы"
 
+#: src/js/components/global/app/app-mobile-main-menu.vue:77
 #: src/js/pages/admin/backups/modify.vue:87
 #: src/js/pages/admin/backups/schedule.vue:106
 #: src/js/components/global/app/app-access-level-dropdown.vue:30
@@ -1035,7 +1031,7 @@ msgstr "Изменить Routine"
 msgid "Anonymous FTP"
 msgstr "Анонимный FTP"
 
-#: src/js/components/local/user-package.vue:170
+#: src/js/components/local/user-package.vue:203
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:197
 #: src/js/pages/admin/users/resellers/modify.vue:208
 msgid "Anonymous FTP Accounts"
@@ -1231,7 +1227,7 @@ msgstr "Вы действительно хотите обновить плаги
 
 #: src/js/pages/admin/ip-manager/_dialogs/assign-ip-dialog.vue:33
 #: src/js/pages/admin/ip-manager/index.vue:19
-#: src/js/pages/user/database/_dialogs/existing-db-user-dialog.vue:16
+#: src/js/pages/user/database/_dialogs/existing-db-user-dialog.vue:23
 #: src/js/pages/admin/ip-manager/index.vue:36
 msgid "Assign"
 msgstr "Присвоить"
@@ -1373,7 +1369,7 @@ msgid "Autoresponders"
 msgstr "Автоответчики"
 
 #: src/js/pages/admin/stats.vue:149 src/js/pages/user/stats/index.vue:42
-#: src/js/components/local/user-package.vue:163
+#: src/js/components/local/user-package.vue:196
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:190
 #: src/js/pages/admin/users/resellers/_components/usage-table.vue:99
 #: src/js/pages/admin/users/resellers/modify.vue:201
@@ -1524,7 +1520,7 @@ msgstr "Настройки резервного копирования"
 msgid "Bandwidth"
 msgstr "Трафик"
 
-#: src/js/components/local/user-package.vue:155
+#: src/js/components/local/user-package.vue:188
 #: src/js/pages/admin/users/resellers/modify.vue:193
 msgid "Bandwidth (MB)"
 msgstr "Трафик (МБ)"
@@ -1703,7 +1699,7 @@ msgid "Cannot execute your request"
 msgstr "Не могу выполнить ваш запрос"
 
 #: src/js/pages/user/stats/index.vue:132
-#: src/js/components/local/user-package.vue:174
+#: src/js/components/local/user-package.vue:207
 #: src/js/modules/navigation/user.js:114
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:201
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:52
@@ -1750,7 +1746,7 @@ msgid "CGI"
 msgstr "CGI"
 
 #: src/js/pages/user/domains/add.vue:90 src/js/pages/user/domains/edit.vue:62
-#: src/js/components/local/user-package.vue:171
+#: src/js/components/local/user-package.vue:204
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:198
 #: src/js/pages/admin/users/resellers/modify.vue:209
 msgid "CGI Access"
@@ -1790,6 +1786,10 @@ msgstr "Изменение параметров домена"
 msgid "Change Limit/Quota"
 msgstr "Изменить лимит / квоту"
 
+#: src/js/pages/user/email/accounts/index.vue:155
+msgid "Change Limits"
+msgstr "Изменить лимит / квоту"
+
 #: src/js/pages/reseller/users/modify.vue:12
 msgid "Change Package for User %{user}"
 msgstr "Изменить пакет пользователя %{user}"
@@ -1823,10 +1823,6 @@ msgstr "Изменить позицию"
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:3
 msgid "Change privileges"
 msgstr "Изменить привилегии"
-
-#: src/js/pages/user/email/accounts/index.vue:155
-msgid "Change Quota"
-msgstr "Изменить квоту"
 
 #: src/js/pages/reseller/users/_components/change-sent-emails-daily-limit-dialog.vue:3
 msgid "Change sent emails daily limit"
@@ -1971,9 +1967,9 @@ msgstr "Действия с буфером обмена"
 msgid "Clipboard is empty"
 msgstr "Буфер обмена пуст"
 
-#: src/js/components/global/ui/ui-dialog.vue:29
-#: src/js/components/global/ui/ui-dialog.vue:55
-#: src/js/components/global/ui/ui-drawer.vue:38
+#: src/js/components/global/ui/ui-dialog.vue:30
+#: src/js/components/global/ui/ui-dialog.vue:56
+#: src/js/components/global/ui/ui-drawer.vue:42
 #: src/js/components/global/ui/ui-notification.vue:41
 #: src/js/components/local/filemanager/search.vue:48
 #: src/js/pages/reseller/tickets.vue:16 src/js/pages/reseller/tickets.vue:34
@@ -2177,7 +2173,7 @@ msgstr "Скопировать пароль"
 msgid "Copy to clipboard"
 msgstr "Скопировать в Буфер Обмена"
 
-#: src/js/components/global/input/input-password.vue:47
+#: src/js/components/global/input/input-password.vue:48
 msgid "Copy to Clipboard"
 msgstr "Копировать в буфер обмена"
 
@@ -2443,7 +2439,7 @@ msgstr[1] "cron задачи"
 msgstr[2] "cron задачи"
 
 #: src/js/pages/user/cronjobs/index.vue:1 src/js/pages/user/stats/index.vue:132
-#: src/js/components/local/user-package.vue:177
+#: src/js/components/local/user-package.vue:210
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:206
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:54
 #: src/js/pages/admin/users/resellers/modify.vue:217
@@ -2592,7 +2588,7 @@ msgstr "Настройка конфигурации"
 #: src/js/pages/reseller/customize-skin/index.vue:1
 #: src/js/modules/navigation/reseller.js:79
 msgid "Customize Evolution Skin"
-msgstr "Настроить скин Evolution"
+msgstr "Опции скина Evolution"
 
 #: src/js/components/local/skins/customize-skin-dialog.vue:10
 msgid "Customize Skin"
@@ -2611,7 +2607,7 @@ msgid "Danger"
 msgstr "Опасность"
 
 #: src/js/pages/user/dashboard/index.vue:1
-#: src/js/components/global/app/app-plugin-page.vue:125
+#: src/js/components/global/app/app-plugin-page.vue:128
 msgid "Dashboard"
 msgstr "Панель управления"
 
@@ -3105,7 +3101,7 @@ msgstr "Аккаунт DirectAdmin"
 msgid "DirectAdmin has not been restarted since the last license.key update!"
 msgstr "DirectAdmin не перезапускался после последнего обновления license.key!"
 
-#: src/js/components/global/app/app-plugin-page.vue:21
+#: src/js/components/global/app/app-plugin-page.vue:24
 msgid "DirectAdmin Logo"
 msgstr "DirectAdmin лого"
 
@@ -3171,7 +3167,7 @@ msgstr "Отклонить"
 msgid "Disk Space"
 msgstr "Дисковое Пространство"
 
-#: src/js/components/local/user-package.vue:156
+#: src/js/components/local/user-package.vue:189
 #: src/js/pages/admin/users/resellers/modify.vue:194
 msgid "Disk Space (MB)"
 msgstr "Дисковое пространство (МБ)"
@@ -3249,7 +3245,7 @@ msgid "DNS Administration"
 msgstr "Управление DNS"
 
 #: src/js/pages/user/stats/index.vue:132
-#: src/js/components/local/user-package.vue:180
+#: src/js/components/local/user-package.vue:213
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:209
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:57
 #: src/js/pages/admin/users/resellers/modify.vue:220
@@ -3317,7 +3313,8 @@ msgstr[0] "домен"
 msgstr[1] "домены"
 msgstr[2] "домены"
 
-#: src/js/components/global/app/app-domains-dropdown.vue:8
+#: src/js/components/global/app/app-domains-dropdown.vue:13
+#: src/js/components/global/app/app-domains-dropdown.vue:37
 #: src/js/components/local/stats/webalizer-table.vue:4
 #: src/js/pages/admin/custom-httpd/index.vue:46
 #: src/js/pages/admin/dns/index.vue:79 src/js/pages/admin/php-safe-mode.vue:41
@@ -3391,7 +3388,7 @@ msgstr[2] "Указатели домена"
 #: src/js/pages/admin/stats.vue:183
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:47
 #: src/js/pages/user/domain-pointers.vue:1 src/js/pages/user/stats/index.vue:42
-#: src/js/components/local/user-package.vue:165
+#: src/js/components/local/user-package.vue:198
 #: src/js/modules/navigation/user.js:43
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:192
 #: src/js/pages/admin/users/resellers/_components/usage-table.vue:101
@@ -3408,7 +3405,7 @@ msgstr "Запись домена успешно обновлена"
 
 #: src/js/modules/navigation/user.js:13 src/js/modules/widgets.js:9
 msgid "Domain Setup"
-msgstr "Настройки доменов"
+msgstr "Настройка доменов"
 
 #: src/js/pages/user/stats/index.vue:26
 msgid "Domain Statistics"
@@ -3433,7 +3430,7 @@ msgstr "Домен(ы)"
 #: src/js/pages/user/dashboard/_components/widgets/all-users.vue:4
 #: src/js/pages/user/domains/index.vue:31
 #: src/js/components/global/app/app-search.vue:108
-#: src/js/components/local/user-package.vue:158
+#: src/js/components/local/user-package.vue:191
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:185
 #: src/js/pages/admin/users/resellers/modify.vue:196
 #: src/js/pages/reseller/users/index.vue:48
@@ -3530,7 +3527,7 @@ msgstr "E-Mail аккаунты"
 #: src/js/pages/admin/backups/schedule.vue:405
 #: src/js/pages/user/dashboard/_components/widgets/email-pop.vue:7
 #: src/js/pages/user/email/accounts/index.vue:1
-#: src/js/components/local/user-package.vue:160
+#: src/js/components/local/user-package.vue:193
 #: src/js/modules/navigation/user.js:61 src/js/modules/widgets.js:29
 #: src/js/pages/admin/backups/_components/crons-table.vue:134
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:101
@@ -3585,7 +3582,7 @@ msgid "E-mail Filters"
 msgstr "Фильтры E-Mail"
 
 #: src/js/pages/admin/stats.vue:129 src/js/pages/user/stats/index.vue:42
-#: src/js/components/local/user-package.vue:161
+#: src/js/components/local/user-package.vue:194
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:188
 #: src/js/pages/admin/users/resellers/_components/usage-table.vue:97
 #: src/js/pages/admin/users/resellers/modify.vue:199
@@ -4027,11 +4024,11 @@ msgstr "Фев"
 msgid "February"
 msgstr "Февраль"
 
-#: src/js/components/global/ui/ui-form-element.vue:179
+#: src/js/components/global/ui/ui-form-element.vue:180
 msgid "Field too long"
 msgstr "Поле слишком длинное"
 
-#: src/js/components/global/ui/ui-form-element.vue:178
+#: src/js/components/global/ui/ui-form-element.vue:179
 msgid "Field too short"
 msgstr "Поле слишком короткое"
 
@@ -4315,7 +4312,7 @@ msgstr "FTP Аккаунты"
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:44
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:29
 #: src/js/components/global/app/app-search.vue:116
-#: src/js/components/local/user-package.vue:166
+#: src/js/components/local/user-package.vue:199
 #: src/js/pages/admin/backups/_components/crons-table.vue:129
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:96
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:193
@@ -4424,7 +4421,7 @@ msgstr "Обработчик для этого расширения уже су�
 msgid "Hardware details"
 msgstr "Детали оборудования"
 
-#: src/js/components/global/app/app-user-bar.vue:27
+#: src/js/components/global/app/app-user-bar.vue:37
 msgid "Hello, %{ username }"
 msgstr "Здравствуйте, %{ username }"
 
@@ -4700,7 +4697,7 @@ msgstr "Информация"
 #: src/js/pages/user/dashboard/_components/widgets/admin-stats.vue:18
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:25
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:35
-#: src/js/components/local/user-package.vue:157
+#: src/js/components/local/user-package.vue:190
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:184
 #: src/js/pages/admin/users/resellers/_components/usage-table.vue:93
 #: src/js/pages/admin/users/resellers/modify.vue:195
@@ -4792,7 +4789,7 @@ msgstr "Инвертировать"
 #: src/js/pages/reseller/users/_components/account-info.vue:80
 #: src/js/pages/reseller/users/create.vue:103
 #: src/js/pages/reseller/users/modify.vue:60
-#: src/js/pages/reseller/users/modify.vue:96
+#: src/js/pages/reseller/users/modify.vue:99
 #: src/js/pages/user/domains/ips.vue:39 src/js/pages/user/login-history.vue:11
 #: src/js/pages/user/login-keys/log.vue:11
 #: src/js/pages/user/stats/index.vue:132
@@ -4993,7 +4990,7 @@ msgid "Kill"
 msgstr "Убить"
 
 #: src/js/pages/kitchen-sink/index.vue:1
-#: src/js/components/global/app/app-user-bar.vue:104
+#: src/js/components/global/app/app-user-bar.vue:114
 msgid "Kitchen sink"
 msgstr "Kitchen sink"
 
@@ -5034,7 +5031,7 @@ msgstr "Последние Tally Completion"
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:55
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:41
 msgid "Last time login"
-msgstr "Время последнего входа"
+msgstr "Последний вход"
 
 #: src/js/pages/admin/license.vue:146 src/js/pages/admin/license.vue:93
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:165
@@ -5196,7 +5193,7 @@ msgstr "Загрузить лог"
 msgid "Loading"
 msgstr "Загрузка"
 
-#: src/js/components/global/app/app-plugin-page.vue:49
+#: src/js/components/global/app/app-plugin-page.vue:52
 msgid "Loading “%{name}” plugin"
 msgstr "Загружаю “%{name}” плагин"
 
@@ -5316,16 +5313,14 @@ msgid "login failures on any account."
 msgstr "ошибки входа на любом аккаунте."
 
 #: src/js/pages/user/login-history.vue:1
-#: src/js/components/global/app/app-user-bar.vue:81
-#: src/js/components/local/main-menu/mobile-user-bar.vue:51
+#: src/js/components/global/app/app-user-bar.vue:91
 msgid "Login History"
 msgstr "История входов"
 
 #: src/js/pages/user/login-keys/index.vue:1
 #: src/js/pages/user/stats/index.vue:132
-#: src/js/components/global/app/app-user-bar.vue:74
-#: src/js/components/local/main-menu/mobile-user-bar.vue:45
-#: src/js/components/local/user-package.vue:179
+#: src/js/components/global/app/app-user-bar.vue:84
+#: src/js/components/local/user-package.vue:212
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:208
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:56
 #: src/js/pages/admin/users/resellers/modify.vue:219
@@ -5348,8 +5343,7 @@ msgstr "Лого"
 msgid "Logo:"
 msgstr "Логотип:"
 
-#: src/js/components/global/app/app-user-bar.vue:99
-#: src/js/components/local/main-menu/mobile-user-bar.vue:65
+#: src/js/components/global/app/app-user-bar.vue:109
 msgid "Logout"
 msgstr "Выход"
 
@@ -5403,7 +5397,7 @@ msgstr "Список рассылки"
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:39
 #: src/js/pages/user/email/lists/index.vue:1
 #: src/js/pages/user/stats/index.vue:42
-#: src/js/components/local/user-package.vue:162
+#: src/js/components/local/user-package.vue:195
 #: src/js/modules/navigation/user.js:91
 #: src/js/pages/admin/backups/_components/crons-table.vue:139
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:106
@@ -5637,8 +5631,7 @@ msgid "Message:"
 msgstr "Сообщение:"
 
 #: src/js/pages/user/messages/index.vue:12
-#: src/js/components/global/app/app-user-bar.vue:67
-#: src/js/components/local/main-menu/mobile-user-bar.vue:39
+#: src/js/components/global/app/app-user-bar.vue:77
 #: src/js/pages/user/messages/index.vue:14
 msgid "Messages"
 msgstr "Сообщения"
@@ -5675,7 +5668,7 @@ msgstr[2] "Mime-типы"
 msgid "MimeTypes"
 msgstr "Mime-типы"
 
-#: src/js/components/global/app/app-plugin-page.vue:28
+#: src/js/components/global/app/app-plugin-page.vue:31
 msgid "Minimize"
 msgstr "Минимизировать"
 
@@ -5896,7 +5889,7 @@ msgid "My messages"
 msgstr "Мои сообщения"
 
 #: src/js/pages/admin/system-backup.vue:91
-#: src/js/components/local/user-package.vue:164
+#: src/js/components/local/user-package.vue:197
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:191
 #: src/js/pages/admin/users/resellers/modify.vue:202
 msgid "MySQL Databases"
@@ -6251,12 +6244,12 @@ msgid "Now"
 msgstr "Сейчас"
 
 #: src/js/pages/admin/settings.vue:156
-#: src/js/pages/reseller/users/modify.vue:84
+#: src/js/pages/reseller/users/modify.vue:87
 msgid "NS1"
 msgstr "NS1"
 
 #: src/js/pages/admin/settings.vue:164
-#: src/js/pages/reseller/users/modify.vue:88
+#: src/js/pages/reseller/users/modify.vue:91
 msgid "NS2"
 msgstr "NS2"
 
@@ -6264,7 +6257,7 @@ msgstr "NS2"
 msgid "Number of lines from the end"
 msgstr "Количество линий с конца"
 
-#: src/js/pages/user/stats/log.vue:43 src/js/pages/user/subdomains/logs.vue:37
+#: src/js/pages/user/stats/log.vue:43 src/js/pages/user/subdomains/logs.vue:38
 msgid "Number of lines to show"
 msgstr "Количество строк для показа"
 
@@ -6514,8 +6507,7 @@ msgstr "Порог использования раздела должен быт
 #: src/js/pages/user/email/_components/modify-account-dialog.vue:34
 #: src/js/pages/user/email/accounts/create.vue:37
 #: src/js/pages/user/protected-directories/view.vue:121
-#: src/js/components/global/app/app-user-bar.vue:87
-#: src/js/components/local/main-menu/mobile-user-bar.vue:56
+#: src/js/components/global/app/app-user-bar.vue:97
 #: src/js/pages/user/database/view.vue:17
 msgid "Password"
 msgstr "Пароль"
@@ -6595,7 +6587,7 @@ msgid "PHP"
 msgstr "PHP"
 
 #: src/js/pages/user/domains/add.vue:100 src/js/pages/user/domains/edit.vue:67
-#: src/js/components/local/user-package.vue:172
+#: src/js/components/local/user-package.vue:205
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:199
 #: src/js/pages/admin/users/resellers/modify.vue:210
 msgid "PHP Access"
@@ -6816,7 +6808,7 @@ msgstr "Частота Процессора (MHz)"
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:69
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:55
 msgid "Profile Setup"
-msgstr "Настройка профиля"
+msgstr "Настр. профиля"
 
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:2
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:12
@@ -6906,7 +6898,7 @@ msgstr "Лимит не может быть больше, чем 100TB"
 msgid "Range end should be larger than start"
 msgstr "Дата окончания должна быть больше, чем дата начала"
 
-#: src/js/pages/user/stats/log.vue:66 src/js/pages/user/subdomains/logs.vue:62
+#: src/js/pages/user/stats/log.vue:66 src/js/pages/user/subdomains/logs.vue:63
 msgid "raw"
 msgstr "raw"
 
@@ -7015,7 +7007,7 @@ msgid "reload in %{delay} seconds"
 msgstr "перезагрузить в %{delay} секунд"
 
 #: src/js/pages/admin/log-viewer/view.vue:73 src/js/pages/user/stats/log.vue:56
-#: src/js/pages/user/subdomains/logs.vue:52
+#: src/js/pages/user/subdomains/logs.vue:53
 msgid "Reload Log"
 msgstr "Перезагрузить журнал"
 
@@ -7080,7 +7072,7 @@ msgstr "Удалить авторизацию"
 msgid "Remove Directory Content"
 msgstr "Удалить содержимое каталога"
 
-#: src/js/pages/reseller/users/modify.vue:101
+#: src/js/pages/reseller/users/modify.vue:104
 #: src/js/pages/user/domains/ips.vue:44
 msgid "Remove DNS records for IP"
 msgid_plural "Remove DNS records for IPs"
@@ -7171,7 +7163,7 @@ msgid "Require valid Two-Step Authentication Code to login to this account."
 msgstr ""
 "Требовать правильный код двухэтапной аутентификации для входа в аккаунт."
 
-#: src/js/components/global/ui/ui-form-element.vue:177
+#: src/js/components/global/ui/ui-form-element.vue:178
 msgid "Required field"
 msgstr "Обязательное поле"
 
@@ -7182,6 +7174,7 @@ msgstr[0] "реселлер"
 msgstr[1] "реселлеры"
 msgstr[2] "реселлеры"
 
+#: src/js/components/global/app/app-mobile-main-menu.vue:68
 #: src/js/pages/admin/backups/modify.vue:88
 #: src/js/pages/admin/backups/schedule.vue:107
 #: src/js/pages/admin/ip-manager/index.vue:19
@@ -7473,7 +7466,7 @@ msgstr "Суббота"
 #: src/js/pages/reseller/users/modify.vue:19
 #: src/js/pages/reseller/users/modify.vue:37
 #: src/js/pages/reseller/users/modify.vue:53
-#: src/js/pages/reseller/users/modify.vue:93
+#: src/js/pages/reseller/users/modify.vue:96
 #: src/js/pages/user/cronjobs/index.vue:204
 #: src/js/pages/user/cronjobs/index.vue:90
 #: src/js/pages/user/dashboard/index.vue:150
@@ -7646,7 +7639,7 @@ msgstr "Поиск должен быть меньше% {size}"
 msgid "Select"
 msgstr "Выбор"
 
-#: src/js/components/global/input/input-checkable-select.vue:46
+#: src/js/components/global/input/input-checkable-select.vue:47
 msgid "Select All"
 msgstr "Выбрать все"
 
@@ -7726,7 +7719,7 @@ msgstr "Выберите IP для фильтрации результатов"
 msgid "Select Items to include in Backup"
 msgstr "Выберите элементы для добавления в Резервную копию"
 
-#: src/js/components/global/input/input-checkable-select.vue:43
+#: src/js/components/global/input/input-checkable-select.vue:44
 msgid "Select None"
 msgstr "Снять выбор"
 
@@ -8135,7 +8128,7 @@ msgstr "Должен быть действительный номер порта
 #: src/js/pages/admin/users/resellers/create.vue:84
 #: src/js/pages/user/_components/create-domain-pointer-dialog.vue:20
 #: src/js/pages/user/email/_components/filter-input.vue:29
-#: src/js/components/global/ui/ui-form-element.vue:181
+#: src/js/components/global/ui/ui-form-element.vue:182
 msgid "Should be valid domain"
 msgstr "Должен быть действительный домен"
 
@@ -8152,7 +8145,7 @@ msgstr "Должен быть действительный домен"
 #: src/js/pages/user/email/spamassassin.vue:298
 #: src/js/pages/user/messages/_dialogs/message-system-options.vue:26
 #: src/js/pages/user/stats/index.vue:237
-#: src/js/components/global/ui/ui-form-element.vue:180
+#: src/js/components/global/ui/ui-form-element.vue:181
 msgid "Should be valid email"
 msgstr "Должен быть действительный email"
 
@@ -8331,8 +8324,7 @@ msgid "Skin Name"
 msgstr "Имя скина"
 
 #: src/js/components/global/app/app-skin-options.vue:6
-#: src/js/components/global/app/app-user-bar.vue:93
-#: src/js/components/local/main-menu/mobile-user-bar.vue:61
+#: src/js/components/global/app/app-user-bar.vue:103
 msgid "Skin Options"
 msgstr "Опции скина"
 
@@ -8439,7 +8431,7 @@ msgid "SPAM Filters"
 msgstr "SPAM Фильтры"
 
 #: src/js/pages/user/stats/index.vue:132
-#: src/js/components/local/user-package.vue:173
+#: src/js/components/local/user-package.vue:206
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:200
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:51
 #: src/js/pages/admin/users/resellers/modify.vue:211
@@ -8461,7 +8453,7 @@ msgstr "Антиспам SpamAssassin"
 msgid "SSH"
 msgstr "SSH"
 
-#: src/js/components/local/user-package.vue:176
+#: src/js/components/local/user-package.vue:209
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:203
 #: src/js/pages/admin/users/resellers/modify.vue:214
 msgid "SSH Access"
@@ -8480,7 +8472,7 @@ msgstr "SSH доступ для Пользователей"
 msgid "SSL"
 msgstr "SSL"
 
-#: src/js/components/local/user-package.vue:175
+#: src/js/components/local/user-package.vue:208
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:202
 #: src/js/pages/admin/users/resellers/modify.vue:213
 msgid "SSL Access"
@@ -8653,7 +8645,7 @@ msgstr "хранится в резервной копии"
 msgid "Strip"
 msgstr "Полоса"
 
-#: src/js/components/local/user-package.vue:159
+#: src/js/components/local/user-package.vue:192
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:186
 #: src/js/pages/admin/users/resellers/modify.vue:197
 msgid "Sub-Domains"
@@ -8683,7 +8675,7 @@ msgstr "Список поддоменов"
 
 #: src/js/modules/navigation/user.js:18
 msgid "Subdomain Management"
-msgstr "Управление поддоменами"
+msgstr "Настройка поддоменов"
 
 #: src/js/pages/user/subdomains/index.vue:22
 #: src/js/pages/user/subdomains/index.vue:30
@@ -8848,7 +8840,7 @@ msgstr ""
 msgid "Suspend at Limit"
 msgstr "Блокировать по лимиту"
 
-#: src/js/components/local/user-package.vue:181
+#: src/js/components/local/user-package.vue:214
 msgid "Suspend At Limit"
 msgstr "Блокировать по Лимиту"
 
@@ -8896,7 +8888,7 @@ msgstr "Резервное копирование"
 #: src/js/pages/user/stats/index.vue:132
 #: src/js/pages/user/system-info/_tables/general-info-table.vue:3
 #: src/js/pages/user/system-info/index.vue:1
-#: src/js/components/local/user-package.vue:178
+#: src/js/components/local/user-package.vue:211
 #: src/js/modules/navigation/reseller.js:97
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:207
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:55
@@ -9273,12 +9265,12 @@ msgstr "Включить"
 
 #: src/js/components/local/two-step-auth-dialog.vue:3
 msgid "Two Step Authentication"
-msgstr "Двухэтапная аутентификация"
+msgstr "Двухэтапная авторизация"
 
 #: src/js/pages/user/password.vue:70 src/js/pages/user/two-step-auth.vue:1
 #: src/js/pages/user/two-step-auth.vue:19 src/js/modules/navigation/user.js:144
 msgid "Two-Step Authentication"
-msgstr "Двухэтапная аутентификация"
+msgstr "Двухэтапная авторизация"
 
 #: src/js/pages/admin/backups/modify.vue:75
 #: src/js/pages/admin/backups/schedule.vue:94
@@ -9516,10 +9508,6 @@ msgstr "Статистика использования для %{device}"
 msgid "Usage, logs and statistics"
 msgstr "Использование, логи и статистика"
 
-#: src/js/pages/user/ssl/ca-cert.vue:22
-msgid "Use a CA Cert"
-msgstr "Использовать сертификат CA"
-
 #: src/js/pages/user/domains/_components/private-html-dialog.vue:15
 msgid "Use a directory named private_html"
 msgstr "Использовать папку private_html"
@@ -9604,7 +9592,7 @@ msgstr "Использовано"
 
 #: src/js/pages/admin/users/index.vue:171
 #: src/js/pages/reseller/users/index.vue:151
-#: src/js/pages/user/database/view.vue:130
+#: src/js/pages/user/database/view.vue:109
 #: src/js/pages/user/protected-directories/view.vue:90
 msgid "user"
 msgid_plural "users"
@@ -9612,6 +9600,7 @@ msgstr[0] "пользователь"
 msgstr[1] "пользователи"
 msgstr[2] "пользователи"
 
+#: src/js/components/global/app/app-mobile-main-menu.vue:59
 #: src/js/pages/admin/brute-force-monitor/index.vue:97
 #: src/js/pages/admin/brute-force-monitor/user_list.vue:12
 #: src/js/pages/admin/cron-jobs.vue:12
@@ -9665,6 +9654,10 @@ msgstr "История Пользователя"
 #: src/js/pages/reseller/users/_components/account-info.vue:107
 msgid "User Home"
 msgstr "Главная папка пользователя"
+
+#: src/js/components/global/app/app-mobile-main-menu.vue:17
+msgid "User Level"
+msgstr "Уровень пользователя"
 
 #: src/js/pages/reseller/user-packages/index.vue:65
 msgid "user package"
@@ -9753,7 +9746,7 @@ msgstr "Имя пользователя преобразовано в punycode"
 #: src/js/pages/reseller/passwords.vue:21
 #: src/js/pages/user/database/_dialogs/change-db-user-pass-dialog.vue:6
 #: src/js/pages/user/database/_dialogs/create-db-user-dialog.vue:18
-#: src/js/pages/user/database/_dialogs/existing-db-user-dialog.vue:8
+#: src/js/pages/user/database/_dialogs/existing-db-user-dialog.vue:5
 msgid "Username:"
 msgstr "Имя пользователя:"
 
@@ -9968,7 +9961,7 @@ msgstr "Посмотреть файл"
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:60
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:46
 msgid "View History"
-msgstr "Посмотреть историю"
+msgstr "История"
 
 #: src/js/pages/admin/system-backup.vue:269
 #: src/js/pages/admin/system-backup.vue:277
@@ -10287,7 +10280,7 @@ msgstr ""
 "Вы удалили все ваши домены. Вы должны создать один для полной "
 "функциональности."
 
-#: src/js/components/global/App.vue:163
+#: src/js/components/global/App.vue:171
 msgid "You have %{ n } unread ticket"
 msgid_plural "You have %{ n } unread tickets"
 msgstr[0] "У вас %{ n } непрочитанных запросов"
@@ -10340,6 +10333,15 @@ msgstr "DD.MM.YYYY, HH:mm:ss"
 # Date format
 msgid "format:date"
 msgstr "DD.MM.YYYY"
+
+#~ msgid "Add New Access Host"
+#~ msgstr "Добавить новый хост доступа"
+
+#~ msgid "Change Quota"
+#~ msgstr "Изменить квоту"
+
+#~ msgid "Use a CA Cert"
+#~ msgstr "Использовать сертификат CA"
 
 #~ msgid "{{ row.label }}"
 #~ msgstr "{{ row.label }}"
