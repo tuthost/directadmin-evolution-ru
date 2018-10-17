@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
@@ -85,8 +85,8 @@ msgid "Send me a Link"
 msgstr "Пришлите мне ссылку"
 
 #: src/js/login/components/standard-auth.vue:26
-msgid "Sign In to Account"
-msgstr "Вход в аккаунт"
+msgid "Sign in to Account"
+msgstr "Войти в панель"
 
 #: src/js/login/components/login-header.vue:3
 msgid "Start DirectAdmin"
