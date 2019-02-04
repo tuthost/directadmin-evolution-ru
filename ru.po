@@ -10405,11 +10405,11 @@ msgstr "Ключ для подписи зоны"
 # ### Lang-specific vars
 # DateTime format
 msgid "format:datetime"
-msgstr "D.M.YYYY, HH:mm:ss"
+msgstr "d.MM.YYYY, HH:mm:ss"
 
 # Date format
 msgid "format:date"
-msgstr "D.M.YYYY"
+msgstr "d.MM.YYYY"
 
 #~ msgid ""
 #~ "Here is your SSL Certificate Request.<br>\n"
