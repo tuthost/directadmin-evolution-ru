@@ -61,7 +61,7 @@
     "user/filemanager": "https://tuthost.ua/faq/filemanager",
     "user/perl-modules": "https://tuthost.ua/faq/scripts#perl",
     "user/stats": "https://tuthost.ua/faq/stats",
-    "user/create-ticket": "https://tuthost.ua/faq/rcontact",
+    "user/create-ticket": "http://|USER_HELPER|/evo/rcontact.php",
     "user/database/create": "https://tuthost.ua/faq/mysql",
     "user/system-info": {
         "admin": "http://|USER_HELPER|/evo/ainfo.php#info",
@@ -73,7 +73,7 @@
         "reseller": "http://|USER_HELPER|/evo/rmodify.php#password"
     },
     "reseller/tickets": "http://|USER_HELPER|/evo/rmessagesystem.php",
-    "user/dashboard": "https://tuthost.ua/faq/sitehelper",
+    "user/dashboard": "https://tuthost.ua/faq-category/directadmin/",
     "user/domains/edit":"https://tuthost.ua/faq/gettingstarted#register",
     "user/ftp-accounts/edit":"https://tuthost.ua/faq/ftp",
     "user/database":"https://tuthost.ua/faq/mysql",
@@ -94,7 +94,7 @@
     "user/stats/log":"https://tuthost.ua/faq/stats",
     "user/history":"https://tuthost.ua/faq/stats",
     "user/disk-usage":"https://tuthost.ua/faq/stats",
-    "user/messages":"https://tuthost.ua/faq/rmessagesystem",
+    "user/messages":"http://|USER_HELPER|/evo/rmessagesystem.php",
     "reseller/history":"http://|USER_HELPER|/evo/rstats.php",
     "reseller/backups/schedule":"http://|USER_HELPER|/evo/rbackup.php#create",
     "reseller/backups/restore":"http://|USER_HELPER|/evo/rbackup.php#restore",
