@@ -3275,6 +3275,10 @@ msgstr "Каталог %{ path } уже защищен."
 msgid "Directory:"
 msgstr "Папка:"
 
+#: src/js/pages/user/email/accounts/index.vue:33
+msgid "Disable DKIM"
+msgstr "Отключить DKIM"
+
 #: src/js/pages/admin/php-safe-mode.vue:41
 #: src/js/pages/admin/php-safe-mode.vue:54
 msgid "Disable Open Basedir"
@@ -3966,6 +3970,10 @@ msgstr ""
 #: src/js/pages/admin/settings.vue:287
 msgid "Enable Automatic Lost Password Recovery"
 msgstr "Активировать автоматическое восстановление пароля"
+
+#: src/js/pages/user/email/accounts/index.vue:33
+msgid "Enable DKIM"
+msgstr "Включить DKIM"
 
 #: src/js/pages/admin/php-safe-mode.vue:41
 #: src/js/pages/admin/php-safe-mode.vue:53
