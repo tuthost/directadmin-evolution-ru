@@ -33,7 +33,7 @@
     "reseller/backups": "http://|USER_HELPER|/evo/rbackup.php",
     "reseller/message-users": "http://|USER_HELPER|/evo/rmessage.php",
     "reseller/skins": "http://|USER_HELPER|/evo/rskins.php",
-    "reseller/customize-skin": "http://|USER_HELPER|/evo/evolution.php",
+    "reseller/customize-skin": "https://tuthost.ua/faq-category/directadmin/",
     "reseller/stats": "http://|USER_HELPER|/evo/rstats.php",
     "reseller/create-ticket": "http://|USER_HELPER|/evo/rcontact.php",
     "user/domains": "https://tuthost.ua/faq/gettingstarted#register",
