@@ -595,4 +595,4 @@
 595=Не соотвествует настройке: %s
 596=Сервер
 597=Удалить веб данные
-598=Preserving the web data only applies to /domains/domain.com. Other areas like E-Mail data will not be preserved.
+598=Сохранение веб-данных относится только к /domains/domain.com. Другие данные, например данные E-Mail не будут сохранены.
