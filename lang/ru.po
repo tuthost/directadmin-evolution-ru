@@ -5034,7 +5034,7 @@ msgstr "Импорт пакетов"
 
 #: src/js/pages/user/email/accounts/index.vue:210
 msgid "In"
-msgstr "В"
+msgstr "Прием"
 
 #: src/js/pages/admin/backups/index.vue:25
 #: src/js/pages/admin/backups/index.vue:34
@@ -6921,7 +6921,7 @@ msgstr "Другое"
 
 #: src/js/pages/user/email/accounts/index.vue:216
 msgid "Out"
-msgstr "Выход"
+msgstr "Отправка"
 
 #: src/js/pages/user/email/usage/index.vue:62
 msgid "Outgoing"
