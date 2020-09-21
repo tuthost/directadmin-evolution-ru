@@ -12551,11 +12551,11 @@ msgstr "Обновить"
 # ### Lang-specific vars
 # DateTime format
 msgid "format:datetime"
-msgstr "dd.MM.yyyy, HH:mm:ss"
+msgstr "dd.mm.yyyy, HH:MM:ss"
 
 # Date format
 msgid "format:date"
-msgstr "dd.MM.yyyy"
+msgstr "dd.mm.yyyy"
 
 # Date format
 msgid "format:weekStart"
