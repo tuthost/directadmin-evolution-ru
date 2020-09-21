@@ -13049,7 +13049,7 @@ msgstr "Корзина"
 
 #: src/components/file-view/table.vue:121
 msgid "Updated: %{ updated }"
-msgstr "Обовлено: %{ updated }"
+msgstr "Обновлено: %{ updated }"
 
 #: src/components/layout/mobile-toolbar.vue:44
 #: src/components/layout/toolbar.vue:109
