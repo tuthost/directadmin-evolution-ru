@@ -12551,7 +12551,7 @@ msgstr "Обновить"
 # ### Lang-specific vars
 # DateTime format
 msgid "format:datetime"
-msgstr "dd-MM-yyyy, HH:mm"
+msgstr "dd.mm.yyyy, HH:MM:ss"
 
 # Date format
 msgid "format:date"
